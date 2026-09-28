@@ -192,3 +192,26 @@ signal²/(signal² + noise²).** Kelly under mean uncertainty ($t^2/(1+t^2)$),
 James–Stein across assets, and vol-exponent shrinkage under forecast noise
 ($b s^2/(b^2 s^2+e^2)$) are the same regression-to-the-mean idea in different
 places.
+
+---
+
+### Entry 9: impact kernels
+
+Bochner's theorem makes manipulation a spectral statement, and the most
+profitable manipulation is the eigenvector at the most negative Fourier lobe.
+The triangle kernel producing resonant, periodic execution bursts was a
+surprise I hadn't thought of in advance.
+
+The Gaussian-kernel optimal schedule was singular (millions of shares) until
+I added a small temporary impact. That isn't only a numerical problem: it
+shows that PD-but-smooth kernels have near-free oscillating directions.
+
+Theme across notes 06/08/10: **efficiency fixes microstructure exponents.**
+Queue correlation ↔ diffusivity; branching ratio + kernel tail ↔ roughness;
+sign memory ↔ impact decay. I'd like a note that states this as one principle,
+something like "a martingale price is an integral constraint on microstructure
+kernels".
+
+Open question worth thinking about: is the martingale (Wiener–Hopf) kernel
+always positive definite? That would make "statistical efficiency ⇒ no
+strategic manipulation" a theorem.

@@ -1,0 +1,16 @@
+A  exponential e^(−t/τ)         min eigenvalue of Toeplitz G: +2.50e-02   min of symbol: +2.499e-02
+A  power law (1+t/τ)^(−0.5)     min eigenvalue of Toeplitz G: +1.25e-02   min of symbol: +3.756e-03
+A  triangle (1−t/2τ)⁺           min eigenvalue of Toeplitz G: +1.24e-03   min of symbol: +0.000e+00
+A  Gaussian e^(−t²/2τ²)         min eigenvalue of Toeplitz G: -7.67e-15   min of symbol: -1.066e-14
+A  rectangle 1{t<τ}             min eigenvalue of Toeplitz G: -8.25e+00   min of symbol: -8.491e+00
+A  rectangle: most profitable round trip has 17 sign changes over 240 steps (period ~ 28.2 steps; theory 2π/(4.493/τ) = 28.0); expected cost -0.0980 (negative = profit)
+B  exponential e^(−t/τ)         optimal buy program: first/last trade 0.109/0.109, interior mean 0.0072, total sold along the way -0.000, cost 0.1448 vs uniform 0.1606
+B  power law (1+t/τ)^(−0.5)     optimal buy program: first/last trade 0.113/0.113, interior mean 0.0064, total sold along the way -0.000, cost 0.3163 vs uniform 0.3308
+B  triangle (1−t/2τ)⁺           optimal buy program: first/last trade 0.132/0.132, interior mean 0.0058, total sold along the way -0.000, cost 0.1489 vs uniform 0.1736
+B  Gaussian e^(−t²/2τ²)         optimal buy program: first/last trade 0.186/0.186, interior mean 0.0003, total sold along the way 0.681, cost 0.1708 vs uniform 0.2109
+C  order signs: target gamma 0.50, fitted autocorrelation exponent 0.558
+C  beta=0.000: variogram exponent 1.415 (theory 2 - 2beta - gamma = 1.500; diffusive = 1)
+C  beta=0.100: variogram exponent 1.237 (theory 2 - 2beta - gamma = 1.300; diffusive = 1)
+C  beta=0.250: variogram exponent 0.959 (theory 2 - 2beta - gamma = 1.000; diffusive = 1)
+C  beta=0.400: variogram exponent 0.688 (theory 2 - 2beta - gamma = 0.700; diffusive = 1)
+C  beta=0.500: variogram exponent 0.522 (theory 2 - 2beta - gamma = 0.500; diffusive = 1)
