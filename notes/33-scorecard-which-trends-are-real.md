@@ -18,6 +18,7 @@ clustering, persistent predictors, multiple testing, publication dates).
 | **Volatility drag = σ²/2** | 1.01% measured vs 1.00% predicted, 152 years | 24 |
 | **The equity premium** | always-valid evidence reached 20× by 1955, ~4,000× by 2018 | 27 |
 | **Vol targeting helps the market** | risk–return exponent p ≈ 0.84 < 3/2; Sharpe 0.43 → 0.46 (monthly), 0.18 → 0.34 (daily, variance-targeted) | 28 |
+| **Credit spreads predict volatility** | BAA−AAA explains 34% of next-year log-vol variation (p < 0.001); +1pp spread ≈ +43% vol | 35 |
 | **Fat tails** | daily Hill ≈ 3–3.8, monthly ≈ 3 (but see note 15: not distinguishable from a lognormal mixture) | 24, 26 |
 
 ## Real but non-stationary (regimes, not constants)
@@ -41,6 +42,8 @@ clustering, persistent predictors, multiple testing, publication dates).
 | Month-of-year seasonality | only September stands out and it fails Holm (p = 0.07); James–Stein removes half the variation | 29 |
 | Sell in May | stable at about +4%/yr but never individually significant | 29 |
 | Day-of-week effects | all Holm p = 1.00 | 29 |
+| Buy the dip | +1.5%/yr over 3–5y after 20% drawdowns, p ≈ 0.4 (only 20 episodes) | 35 |
+| Credit spreads predict returns | R² 0.005, p = 0.44 | 35 |
 | Size premium | never reaches always-valid significance in 90 years | 27 |
 | LPPL bubble detection | flags 24% of random walks that rose 50%; flags didn't precede drawdowns 2001–18 | 21 |
 | "The premium died" alarms | CUSUM fired for all three factors after 1993; ~65% false-alarm probability; all kept earning | 27 |

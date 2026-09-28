@@ -1,0 +1,15 @@
+drawdown >= 20% (24% of months): next 12m excess return +5.3%/yr vs unconditional +6.2%/yr
+drawdown >= 20% (24% of months): next 36m excess return +7.3%/yr vs unconditional +5.9%/yr
+drawdown >= 20% (24% of months): next 60m excess return +7.7%/yr vs unconditional +5.9%/yr
+drawdown >= 30% (16% of months): next 12m excess return +8.3%/yr vs unconditional +6.2%/yr
+drawdown >= 30% (16% of months): next 36m excess return +9.2%/yr vs unconditional +5.9%/yr
+drawdown >= 30% (16% of months): next 60m excess return +9.7%/yr vs unconditional +5.9%/yr
+   null (block bootstrap) for 20% drawdown, 12m: 95% band of difference [-4.8, +7.4]%/yr; observed -0.9; p(one-sided) = 0.704
+   null (block bootstrap) for 20% drawdown, 36m: 95% band of difference [-4.2, +5.9]%/yr; observed +1.4; p(one-sided) = 0.407
+   null (block bootstrap) for 20% drawdown, 60m: 95% band of difference [-3.7, +5.0]%/yr; observed +1.8; p(one-sided) = 0.338
+distinct 20%+ drawdown episodes since 1926: 20
+credit spread 1926-2017: mean 1.13pp, AR(1) 0.975
+next-12m excess return on spread: slope +2.2%/yr per pp, R^2 0.005
+next-12m log volatility on spread: slope +0.358 per pp, R^2 0.336
+   return R^2 null (independent AR(1) spread): median 0.004, 95th pct 0.034; p = 0.441
+   volatility R^2 null: median 0.013, 95th pct 0.098; p = 0.000
