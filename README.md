@@ -5,11 +5,12 @@ syllabus. Each note starts from a question, works through the maths, and then
 tests the idea numerically. Wherever I could, I tried to derive or check
 something rather than repeat a textbook result.
 
-No live market data is available in this environment, so the experiments run on
-simulated markets built to isolate one mechanism at a time. That is a
-limitation, but it is also useful: a simulation tells you what a theory
-*predicts*, which is what you need to know before you can tell whether real data
-disagrees with it.
+Notes 01–23 run on simulated markets built to isolate one mechanism at a time:
+a simulation tells you what a theory *predicts*. From note 24 onward the
+notebook turns to **real data**, loaded by [`code/data.py`](code/data.py):
+Shiller's monthly S&P 500 (1871–), daily VIX (1990–), daily S&P 500 and
+NASDAQ OHLCV (1999–2018) and the Fama–French factors (1926–2018). The aim is
+to find which quantitative trends survive an honest null hypothesis.
 
 ## Layout
 
@@ -36,6 +37,7 @@ others together.
 - **Geometry, topology and transport**: 03, 06 (conformal maps), 12 (optimal
   transport), 13 (cohomology of arbitrage)
 - **Agents and emergence**: 08, 17
+- **Real data: which trends survive?**: 24 onward
 
 Recurring lessons are collected in [`JOURNAL.md`](JOURNAL.md), including three
 places where a simulation overruled a confident first derivation (08, 11/16, 18).
@@ -66,6 +68,7 @@ places where a simulation overruled a confident first derivation (08, 11/16, 18)
 | 20 | [The square-root law from a diffusing order book](notes/20-square-root-impact-from-diffusion.md) | Latent net liquidity obeys the heat equation; a metaorder's price solves a Volterra equation. Slow execution: diffusion square root; fast: geometric √(2Q/L). The pure-diffusion propagator (β = ½) is too forgetful for efficiency |
 | 22 | [Who gets the alpha?](notes/22-who-gets-the-alpha.md) | With square-root impact and competitive investors a monopolist manager's fee is ⅓ of gross alpha and impact eats ⅔; with N managers crowding one signal, impact takes N/(N+½): 95% at N = 10 |
 | 23 | [Liquidity providers' horizons set how impact decays](notes/23-liquidity-horizons-set-impact-decay.md) | Latent book with a spread of renewal rates, share below ν ∝ ν^a: impact decays as t^−(1−a) (Laplace/Tauberian, checked by Talbot inversion). Efficiency requires a = (1+γ)/2, tying takers' memory to makers' horizons |
+| 24 | [150 years of the S&P 500: which trends survive an honest null?](notes/24-150-years-of-sp500.md) | **Real data.** Volatility drag = σ²/2 to 0.01%; the famous lag-1 momentum is a monthly-averaging artefact; long-run mean reversion is pre-war only and not significant once the null respects volatility clustering |
 
 ## Running
 

@@ -1,0 +1,37 @@
+real total returns: 1871-02 to 2023-06 (152 years)
+arithmetic mean 7.69%/yr, vol 14.2%, geometric 6.90%/yr; drag 1.01% vs sigma^2/2 = 1.00%
+calendar-year real returns: mean 8.45%, sd 17.9%, geometric 6.88%, share of negative years 31%
+   1871-1913: real geometric  7.14%/yr, vol (x sqrt(3/2) averaging fix)  13.8%
+   1914-1945: real geometric  6.43%/yr, vol (x sqrt(3/2) averaging fix)  24.6%
+   1946-1981: real geometric  5.25%/yr, vol (x sqrt(3/2) averaging fix)  14.9%
+   1982-2000: real geometric 13.07%/yr, vol (x sqrt(3/2) averaging fix)  14.2%
+   2001-2023: real geometric  4.75%/yr, vol (x sqrt(3/2) averaging fix)  16.6%
+variance ratio VR(k) = Var(k-month change) / (k Var(1-month change)):
+   k=   1 months: data  1.00   averaged random walk: median 1.00, 95% band [1.00, 1.00]
+   k=   2 months: data  1.26   averaged random walk: median 1.25, 95% band [1.20, 1.29]
+   k=   3 months: data  1.35   averaged random walk: median 1.33, 95% band [1.25, 1.41]
+   k=   6 months: data  1.44   averaged random walk: median 1.41, 95% band [1.26, 1.56]
+   k=  12 months: data  1.67   averaged random walk: median 1.44, 95% band [1.21, 1.69]
+   k=  24 months: data  1.58   averaged random walk: median 1.45, 95% band [1.12, 1.85]
+   k=  36 months: data  1.42   averaged random walk: median 1.43, 95% band [1.06, 1.95]
+   k=  60 months: data  1.35   averaged random walk: median 1.39, 95% band [0.94, 2.04]
+   k=  84 months: data  1.19   averaged random walk: median 1.37, 95% band [0.85, 2.17]
+   k= 120 months: data  1.16   averaged random walk: median 1.33, 95% band [0.72, 2.31]
+   k= 180 months: data  1.00   averaged random walk: median 1.25, 95% band [0.58, 2.44]
+   k= 240 months: data  0.76   averaged random walk: median 1.16, 95% band [0.46, 2.59]
+lag-1 autocorrelation of monthly (averaged) returns: 0.260; averaged-RW null band [0.208, 0.296] (theory 0.25 for continuous averaging)
+lags (1-24) outside the null band: [5, 6, 13, 14, 15, 20, 21]; values: 5:+0.081, 6:+0.048, 13:-0.066, 14:-0.071, 15:-0.059, 20:-0.092, 21:-0.090
+portmanteau (lags 2-24): data 0.0494, null 95th pct 0.0233, p = 0.000
+heteroskedastic null: lags outside 95% band [20, 21]; portmanteau p = 0.113 (95th pct 0.0586)
+full-sample VR vs heteroskedastic null: 12m 1.67 [1.09,1.94], 24m 1.58 [0.99,2.21], 36m 1.42 [0.93,2.34], 60m 1.35 [0.81,2.55], 84m 1.19 [0.75,2.73], 120m 1.16 [0.66,3.00], 180m 1.00 [0.52,3.24], 240m 0.76 [0.43,3.38]
+post-1946 autocorrelations at lags 5,6,13,14,15,20,21: 5:+0.095, 6:-0.032, 13:-0.029, 14:-0.040, 15:-0.009, 20:-0.073, 21:-0.074
+pre-1946 autocorrelations at the same lags: 5:+0.071, 6:+0.102, 13:-0.088, 14:-0.091, 15:-0.093, 20:-0.103, 21:-0.099
+post-1946 variance ratios: 12m 1.67 [1.11,1.82], 24m 1.65 [0.96,2.03], 36m 1.56 [0.88,2.18], 60m 1.66 [0.73,2.40], 84m 1.71 [0.59,2.58], 120m 1.86 [0.48,2.77], 180m 1.65 [0.35,2.89], 240m 1.22 [0.24,2.96]
+monthly real log-returns: kurtosis 14.3; Hill tail exponent (both tails) at top 2.5% / 5%: 3.16 / 2.78
+worst months: 1929-11 -26%, 1932-04 -23%, 2008-10 -19%, 2020-03 -19%, 1931-12 -18%
+max real drawdown -77% (trough 1932-06)
+   underwater 2000-09 to 2013-05: 12.7 years, depth -52%
+   underwater 1973-02 to 1985-01: 11.9 years, depth -50%
+   underwater 1937-03 to 1945-04:  8.1 years, depth -48%
+   underwater 1916-12 to 1924-08:  7.7 years, depth -47%
+   underwater 1929-10 to 1936-11:  7.1 years, depth -77%
