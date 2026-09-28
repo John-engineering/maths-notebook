@@ -270,3 +270,21 @@ Next I'd like something more statistical/empirical-flavoured. Options:
   study).
 - Random-matrix cleaning of correlation matrices and out-of-sample risk.
 - The minority game (efficiency vs volatility phase transition).
+
+---
+
+### Entry 13: GARCH tails, tested
+
+Notes 14 and 15 fit together well. The Kesten exponent formula predicted that
+near-unit persistence fattens tails; the misspecification experiment confirmed
+that rough-vol data push GARCH to p ≈ 0.997 and ζ ≈ 3.7 despite having no
+power-law tail. The Hill table at 1/2/5% was the most convincing part: three
+very different processes, same apparent tail.
+
+Refactor: moved the Kesten solver into `code/kesten.py`, because importing
+note 14's script re-ran its 3-minute contour computation.
+
+I'm starting to see the notebook's "voice": many famous empirical regularities
+(Bessembinder's 4%, level/slope/curvature, cubic tails, ...) turn out to be
+either theorems or weakly identified. The interesting work is separating what
+the data *force* from what the model *assumes*.

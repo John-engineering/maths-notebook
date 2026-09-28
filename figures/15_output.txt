@@ -1,0 +1,13 @@
+true GARCH(1,1)              alpha 0.092 [0.083,0.099]  persistence 0.9890 [0.9856,0.9930]  implied 2kappa 4.55 [3.59,5.35]
+3-component lognormal SV     alpha 0.071 [0.057,0.083]  persistence 0.9882 [0.9783,0.9951]  implied 2kappa 6.14 [4.08,8.17]
+rough lognormal SV (H=0.1)   alpha 0.061 [0.050,0.069]  persistence 0.9970 [0.9894,0.9993]  implied 2kappa 3.74 [2.41,6.72]
+Hill at top 1% / 2% / 5% of the sample (true GARCH): 3.97 / 3.81 / 3.44
+Hill at top 1% / 2% / 5% of the sample (3-comp SV): 4.89 / 4.42 / 3.66
+Hill at top 1% / 2% / 5% of the sample (rough SV): 4.36 / 3.97 / 3.32
+Hill estimates vs number of tail observations k (true tail behaviour):
+   k=     100: 3-comp SV 10.58   true GARCH  3.38
+   k=     551: 3-comp SV  8.47   true GARCH  3.88
+   k=    3041: 3-comp SV  7.39   true GARCH  4.12
+   k=   16775: 3-comp SV  6.33   true GARCH  4.26
+   k=   92518: 3-comp SV  5.32   true GARCH  4.08
+   k=  510251: 3-comp SV  4.18   true GARCH  3.70
