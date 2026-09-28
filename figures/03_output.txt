@@ -1,0 +1,11 @@
+family                               P(v1 has 0 sc)  P(v2 has 1)  P(v3 has 2)  P(all three)  P(TP2)
+OU kernel in log-maturity                     1.000        1.000        1.000         1.000   1.000
+Gaussian kernel in log-maturity               1.000        1.000        1.000         1.000   1.000
+random Gauss–Markov chain                     1.000        1.000        1.000         1.000   1.000
+positive factor model (no order)              1.000        0.005        0.039         0.001   0.000
+Gauss–Markov, maturities shuffled             1.000        0.003        0.030         0.000   0.000
+calibrated to PC1=85%: OU ell=9.65, top-3 share 0.9598; Gaussian ell=3.28, top-3 share 0.9995
+  true (OU kernel)               PC1 0.845  top-3 0.9592
+  observed (+ noise)             PC1 0.827  top-3 0.9399
+  Svensson-fitted (4 basis fns)  PC1 0.875  top-3 0.9939
+  Nelson–Siegel-fitted (3)       PC1 0.880  top-3 1.0000

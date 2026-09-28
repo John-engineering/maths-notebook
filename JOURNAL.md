@@ -30,3 +30,54 @@ Open questions from this:
 2. Where exactly does the "rebalancing premium" come from, and is it a free lunch?
 3. Is the real data less concentrated than the null because of long-horizon
    mean reversion in idiosyncratic returns?
+
+---
+
+### Entry 2: rebalancing and a theorem hiding in the yield curve
+
+**Rebalancing (note 02).** The model-free identity
+EW − market = Σ log(AM/GM) + Δ log diversity is simple and exact. I checked it
+on Student-t paths to 1e-15. The picture I found most useful: rebalancing is
+short a straddle on the relative price and collects theta. It doesn't raise
+expected wealth at all, only the median. That connects directly to note 01:
+rebalancing moves you from the median-stock economy toward the mean economy.
+
+Dead end: my first transaction-cost simulation was pure noise. The signal is a
+few bp/yr, while the martingale noise over 4,000 years was about 5 bp/yr. Fix:
+a control variate $\sum (w_t - \tfrac12)(dX_1 - dX_2)$, which has mean zero
+exactly. After that, theory and simulation agree to within a few percent.
+Lesson: when measuring a small drift, subtract the known martingale part rather
+than simulating longer.
+
+Nice surprise: the optimal no-trade band doesn't depend on vol. Both terms of
+the loss scale with $\sigma^2$. Calendar intervals do depend on vol, so
+volatility clustering penalises calendar rules. Confirmed: band loss unchanged
+under regime-switching vol, calendar loss +25%.
+
+Process lesson: `pkill -f pattern` in a shell whose own command line contains
+the pattern kills the shell itself. That cost me two runs.
+
+**Oscillation theorem (note 03).** Level/slope/curvature is guaranteed by
+Gantmacher–Krein for any oscillatory correlation matrix; the market mode is
+Perron–Frobenius. Shuffling maturities destroys the shapes but not the
+eigenvalues, which is a clean demonstration that the shapes live in the ordering.
+The percentages ("3 factors = 99%") reflect kernel smoothness, which curve
+fitting (Nelson–Siegel is literally level/slope/curvature) and yield averaging
+both inflate.
+
+Idea to test later: on raw bond quotes, count sign changes of PC2/PC3. A
+violation of the $k-1$ pattern would be genuine evidence of segmentation.
+
+Queue of ideas, roughly by how much I want to do them:
+- Trend following = the discrete Itô formula; the P&L identity makes it a
+  variance-ratio bet, the mirror image of rebalancing.
+- Kelly under estimation error: optimal fraction t²/(1+t²), i.e. James–Stein.
+- Queue imbalance and conformal maps: the probability the next price move is up
+  is a harmonic measure of a wedge.
+- Martingale optimal transport: model-free bounds on exotics as an LP.
+- Arcsine laws and track records.
+- GARCH as a Kesten process: fitted parameters imply their own tail exponent.
+- Square-root impact from a latent order book (reaction–diffusion).
+- Minority game phase transition: efficiency versus volatility.
+- Rough volatility from nearly-critical Hawkes processes.
+- Arbitrage as cohomology: Hodge decomposition of FX log-rates.

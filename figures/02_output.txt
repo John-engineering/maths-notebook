@@ -1,0 +1,10 @@
+A. identity check with Student-t(3) returns: lhs=-37.771856168127 rhs=-37.771856168127 diff=-7.11e-15
+B. independent: harvested +9.01, diversity -7.24, EW-vs-market +1.77 log pts over 150y
+B. atlas      : harvested +9.91, diversity +0.10, EW-vs-market +10.02 log pts over 150y
+D. c=0.0005: best band ±0.040 (theory ±0.045), loss 1.83bp/yr (theory 1.86); best calendar 42d (theory 48d), loss 2.88bp/yr (theory 2.90)
+D. c=0.0020: best band ±0.060 (theory ±0.072), loss 4.65bp/yr (theory 4.68); best calendar 126d (theory 121d), loss 7.13bp/yr (theory 7.32)
+D. c=0.0080: best band ±0.100 (theory ±0.114), loss 11.41bp/yr (theory 11.79); best calendar 252d (theory 306d), loss 17.84bp/yr (theory 18.44)
+E. regime vol: stressed fraction 0.20, rms vol 0.297
+E. constant vol 0.30: best band 4.60bp, best calendar 7.09bp  (ratio 1.54)
+E. regime vol:            best band 4.52bp, best calendar 8.87bp  (ratio 1.96)
+E. regime vol: argmin band 0.06, const 0.06; argmin calendar 63d vs const 126d

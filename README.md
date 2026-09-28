@@ -23,6 +23,8 @@ disagrees with it.
 | # | title | one-line idea |
 |---|---|---|
 | 01 | [Three growth rates, and why 4% of stocks make all the money](notes/01-three-growth-rates.md) | The median stock, the mean and the median dollar grow at μ−σ²/2, μ and μ+σ²/2; Bessembinder's skewness follows from σ√T |
+| 02 | [Where the rebalancing premium comes from](notes/02-rebalancing-premium.md) | Exact identity: EW − market = Σ log(AM/GM) + Δ diversity. Rebalancing is short a straddle on relative prices; optimal no-trade band (3c/16)^⅓ is independent of vol |
+| 03 | [Level, slope and curvature are a theorem](notes/03-level-slope-curvature-theorem.md) | Gantmacher–Krein forces k−1 sign changes in the k-th PC of any oscillatory correlation matrix; "three factors explain 99%" is mostly curve-fitting smoothness |
 
 ## Running
 
