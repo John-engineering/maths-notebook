@@ -75,6 +75,7 @@ places where a simulation overruled a confident first derivation (08, 11/16, 18)
 | 28 | [The variance risk premium, and volatility targeting, on real data](notes/28-variance-risk-premium-and-vol-targeting.md) | **Real data.** VIX² > realised variance on 84% of days (short-variance Sharpe 1.25, skew −5.3); Gaussian-Kelly sizing is ruined by Sept 2008, and exact Kelly is 0.14 vs 0.48. Market risk-return exponent p ≈ 0.84 < 3/2, so vol targeting helps, less than theory because vol forecasts are noisy |
 | 29 | [Calendar effects, tested honestly](notes/29-calendar-effects-honestly.md) | **Real data.** September is the only standout month (t = −2.8) but fails a 12-month Holm correction; James–Stein removes half of seasonal variation; Sell-in-May ≈ +4%/yr before and after publication yet never significant; NASDAQ's overnight drift is almost entirely 1999–2000 |
 | 30 | [Does trend following work on the US stock market?](notes/30-trend-following-the-us-market.md) | **Real data.** 12-month TSMOM long/cash: Sharpe 0.42 → 0.56, max drawdown −85% → −44%; beats random-timing and i.i.d. nulls (p ≤ 0.002) and predicts returns beyond volatility (t = 2.2); the long/short version pays off like a straddle (+49% in 1931, +33% in 2008), as note 04 predicted |
+| 31 | [How volatility shocks decay](notes/31-how-volatility-shocks-decay.md) | **Real data.** 22 VIX spikes 1990–2025 relax as a power law with β ≈ 0.33 (not exponentially; wins leave-one-out 14/22), matching rough-vol's ½ − H from note 26; spikes rise in ~2 days and halve in ~8 |
 
 ## Running
 
