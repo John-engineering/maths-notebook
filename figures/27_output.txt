@@ -1,0 +1,23 @@
+data 1926-07 to 2018-11
+factor   era          mean %/yr  vol %/yr  Sharpe   t-stat  Kelly shrink t²/(1+t²)
+Mkt-RF   1926-1962      10.16      22.6    0.45    2.71   0.88
+Mkt-RF   1963-1992       5.19      15.6    0.33    1.82   0.77
+Mkt-RF   1993-2018       7.91      14.5    0.54    2.77   0.88
+Mkt-RF   1926-2018       7.92      18.5    0.43    4.13   0.94
+SMB      1926-1962       2.43      11.8    0.21    1.25   0.61
+SMB      1963-1992       3.28      10.0    0.33    1.80   0.76
+SMB      1993-2018       1.61      11.2    0.14    0.73   0.35
+SMB      1926-2018       2.48      11.1    0.22    2.16   0.82
+HML      1926-1962       4.95      15.0    0.33    1.99   0.80
+HML      1963-1992       5.52       8.9    0.62    3.40   0.92
+HML      1993-2018       2.42      10.5    0.23    1.17   0.58
+HML      1926-2018       4.43      12.1    0.37    3.53   0.93
+mixture-Kelly wealth for Mkt-RF monitored from 1928: first reaches 20x (positive premium) at 1955-06; final log-wealth 8.35 (sign of cumulative evidence +)
+mixture-Kelly wealth for Mkt-RF monitored from 1993: first reaches 20x (positive premium) at 1998-03; final log-wealth 2.47 (sign of cumulative evidence +)
+mixture-Kelly wealth for SMB monitored from 1928: first reaches 20x (positive premium) at never; final log-wealth -1.18 (sign of cumulative evidence +)
+mixture-Kelly wealth for SMB monitored from 1993: first reaches 20x (positive premium) at never; final log-wealth -1.50 (sign of cumulative evidence +)
+mixture-Kelly wealth for HML monitored from 1928: first reaches 20x (positive premium) at 1964-03; final log-wealth 4.76 (sign of cumulative evidence +)
+mixture-Kelly wealth for HML monitored from 1993: first reaches 20x (positive premium) at never; final log-wealth -1.40 (sign of cumulative evidence +)
+CUSUM 'premium died' for Mkt-RF: alive Sharpe (1926-92) 0.40, h=1.38 (1 false alarm / 20y): alarm 2002-09; P(alarm by 2018 | still alive) = 0.65; Sharpe AFTER the alarm to 2018: +0.71 over 16y
+CUSUM 'premium died' for SMB: alive Sharpe (1926-92) 0.26, h=0.96 (1 false alarm / 20y): alarm 1998-08; P(alarm by 2018 | still alive) = 0.67; Sharpe AFTER the alarm to 2018: +0.30 over 20y
+CUSUM 'premium died' for HML: alive Sharpe (1926-92) 0.41, h=1.42 (1 false alarm / 20y): alarm 1999-12; P(alarm by 2018 | still alive) = 0.63; Sharpe AFTER the alarm to 2018: +0.30 over 19y
