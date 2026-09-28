@@ -1,0 +1,6 @@
+NASDAQ   strict: flagged   0/442 windows ( 0.0%); next-120d return flagged  +nan% vs unflagged  +3.3%; next-120d max drawdown   nan% vs -14.6%
+NASDAQ   loose : flagged  44/442 windows (10.0%); next-120d return flagged  +1.3% vs unflagged  +3.5%; next-120d max drawdown -11.5% vs -14.9%
+   NASDAQ loose-flag quarters: 2010Q4(1), 2011Q1(7), 2011Q2(4), 2014Q2(1), 2014Q3(7), 2014Q4(6), 2015Q1(6), 2015Q2(6), 2015Q3(3), 2017Q4(1), 2018Q1(2)
+S&P 500  strict: flagged   5/442 windows ( 1.1%); next-120d return flagged  +3.9% vs unflagged  +2.1%; next-120d max drawdown  -6.4% vs -11.7%
+S&P 500  loose : flagged  55/442 windows (12.4%); next-120d return flagged  +1.4% vs unflagged  +2.2%; next-120d max drawdown  -9.4% vs -11.9%
+   S&P 500 loose-flag quarters: 2004Q4(1), 2005Q1(6), 2005Q2(1), 2006Q4(2), 2007Q1(5), 2007Q2(4), 2007Q3(2), 2007Q4(2), 2011Q1(5), 2011Q2(3), 2014Q1(6), 2014Q2(1), 2014Q3(7), 2015Q1(1), 2017Q2(1), 2017Q3(2), 2017Q4(2), 2018Q1(3), 2018Q3(1)

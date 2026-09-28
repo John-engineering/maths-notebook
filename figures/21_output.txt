@@ -1,0 +1,6 @@
+sample                      n    strict filters   loose filters   median R²
+all GBM windows             300        0.0%            9.0%      0.860
+GBM windows up > 50%        300        0.3%           24.3%      0.952
+LPPL bubble, noise 0.005    300       42.7%           88.3%      0.991
+LPPL bubble, noise 0.01     300       14.0%           60.7%      0.968
+flagged up-trend random walks: predicted crash 22 trading days after window end (IQR 2-53); no crash follows by construction
