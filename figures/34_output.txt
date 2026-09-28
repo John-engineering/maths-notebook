@@ -1,0 +1,13 @@
+485 constituents with market cap; total $71.5T; largest $5.43T, median $40B
+top-1 share 7.6%, top-10 44.2%, top-50 68.4%; effective number of stocks 1/sum(w^2) = 38
+Pareto tail exponent, top 20: rank-size regression 0.95, Hill 0.88 (Zipf = 1)
+Pareto tail exponent, top 50: rank-size regression 0.96, Hill 1.05 (Zipf = 1)
+Pareto tail exponent, top 100: rank-size regression 0.99, Hill 1.00 (Zipf = 1)
+Pareto tail exponent, top 250: rank-size regression 0.97, Hill 0.86 (Zipf = 1)
+Gabaix-Ibragimov (rank - 1/2) estimate, top 100: 1.05 ± 0.15
+zero-alpha market (note 01), seed 0: largest-485 firms: top-10 share 22.8%, effective N 102, tail exponent (top 100) 1.50
+zero-alpha market (note 01), seed 1: largest-485 firms: top-10 share 55.4%, effective N 10, tail exponent (top 100) 1.06
+zero-alpha market (note 01), seed 2: largest-485 firms: top-10 share 48.8%, effective N 16, tail exponent (top 100) 1.00
+zero-alpha market (note 01), seed 3: largest-485 firms: top-10 share 56.2%, effective N 9, tail exponent (top 100) 1.06
+zero-alpha market (note 01), seed 4: largest-485 firms: top-10 share 24.2%, effective N 97, tail exponent (top 100) 1.35
+P/E: median 22.5; cap-weighted harmonic P/E 24.6; elasticity of P/E to size +0.109 (a 10x larger firm trades at 1.29x the P/E); top-10 median P/E 28.4
