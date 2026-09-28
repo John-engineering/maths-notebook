@@ -64,6 +64,7 @@ places where a simulation overruled a confident first derivation (08, 11/16, 18)
 | 18 | [When did my edge die?](notes/18-when-did-my-edge-die.md) | CUSUM (a drawdown rule on drift-adjusted P&L) is optimal; detection time scales as 2/ΔSR² years, so Sharpe 1 → 0 takes about 3 years at one false alarm per 20 years |
 | 19 | [The Kelly bettor is a statistician](notes/19-the-kelly-bettor-is-a-statistician.md) | Synthesis: Kelly wealth = likelihood ratio (Girsanov), so Kelly growth = KL rate; note 07's always-valid test is a mixture of Kelly bettors, and CUSUM is a restarted bettor. Testing by betting |
 | 20 | [The square-root law from a diffusing order book](notes/20-square-root-impact-from-diffusion.md) | Latent net liquidity obeys the heat equation; a metaorder's price solves a Volterra equation. Slow execution: diffusion square root; fast: geometric √(2Q/L). The pure-diffusion propagator (β = ½) is too forgetful for efficiency |
+| 22 | [Who gets the alpha?](notes/22-who-gets-the-alpha.md) | With square-root impact and competitive investors a monopolist manager's fee is ⅓ of gross alpha and impact eats ⅔; with N managers crowding one signal, impact takes N/(N+½): 95% at N = 10 |
 
 ## Running
 
