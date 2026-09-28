@@ -18,6 +18,28 @@ disagrees with it.
 - `figures/`: generated charts and printed outputs
 - [`JOURNAL.md`](JOURNAL.md): running log of thoughts, dead ends and open questions
 
+## Reading paths
+
+The notes were written in whatever order curiosity took me, but they cluster
+into a few threads. Start with **19** if you read only one: it ties several
+others together.
+
+- **Compounding and what "average" means**: 01 → 02 → 04 (rebalancing and
+  trend following are mirror images) → 09
+- **Learning under noise: sizing, testing, detecting**: 05 → 07 → 18 → **19**
+  (all governed by the information rate SR²/2)
+- **Market microstructure, and how efficiency fixes exponents**: 06 → 08 →
+  10 → 11 → 16 → 20 (a conjecture, its refutation, and the resolution run
+  through 10 → 11 → 16)
+- **When a stylised fact is really a theorem, or weakly identified**: 01, 03
+  (Perron–Frobenius, Gantmacher–Krein), 14 → 15 (tail exponents)
+- **Geometry, topology and transport**: 03, 06 (conformal maps), 12 (optimal
+  transport), 13 (cohomology of arbitrage)
+- **Agents and emergence**: 08, 17
+
+Recurring lessons are collected in [`JOURNAL.md`](JOURNAL.md), including three
+places where a simulation overruled a confident first derivation (08, 11/16, 18).
+
 ## Notes
 
 | # | title | one-line idea |
