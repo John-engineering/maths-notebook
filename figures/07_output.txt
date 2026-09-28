@@ -1,0 +1,16 @@
+1  P(ahead >95% or <5% of the time) sim 0.283 theory 0.287; >90%/<10%: sim 0.406 theory 0.410
+1  P(continuously ahead for the last 27 of 30 years) sim 0.112, theory 0.102
+2  P(t>2 at some monthly check, years 1..30): sim 0.173; continuous-monitoring Pickands approx 0.187; |t|>2 two-sided 0.345
+   by year  3: one-sided 0.078   two-sided 0.156
+   by year  5: one-sided 0.100   two-sided 0.201
+   by year 10: one-sided 0.129   two-sided 0.259
+   by year 20: one-sided 0.158   two-sided 0.315
+   by year 30: one-sided 0.173   two-sided 0.345
+3  always-valid boundary: false alarms by year 30 = 0.0262 (guarantee <= 0.05)
+   t-stat threshold at year  1: 3.66
+   t-stat threshold at year  5: 3.06
+   t-stat threshold at year 10: 3.04
+   t-stat threshold at year 30: 3.12
+3  IR 0.25: always-valid detection within 30y 11.3%, median time beyond 30y; a single test at year 30 (t>1.96) would have power 27.7%
+3  IR 0.5: always-valid detection within 30y 50.0%, median time beyond 30y; a single test at year 30 (t>1.96) would have power 78.2%
+3  IR 1.0: always-valid detection within 30y 99.6%, median time 7.6y; a single test at year 30 (t>1.96) would have power 100.0%

@@ -142,3 +142,20 @@ spurious 60/40 in a symmetric model. A good reminder that simultaneous events
 in discrete simulations need explicit handling.
 
 Checked that my wedge formula matches the Avellaneda–Reed–Stoikov form to 1e-14.
+
+---
+
+### Entry 6: monitoring
+
+Note 07 is mostly classical (arcsine law, LIL, Robbins' mixture martingale).
+What's new to me is putting them together for performance evaluation. The OU
+time change makes the false-alarm rate depend on $\log(T_{\max}/T_{\min})$,
+which I find a clean way to say it. The always-valid threshold landing at
+t ≈ 3, the same number as Harvey–Liu–Zhu's multiple-testing correction, is a
+coincidence, but a memorable one.
+
+Sobering number: an IR-0.5 manager has about 50% odds of proving skill within
+30 years under honest sequential testing.
+
+Next up: rough volatility from nearly critical Hawkes processes. This is the
+most computationally demanding idea on the list, so it's worth doing carefully.
