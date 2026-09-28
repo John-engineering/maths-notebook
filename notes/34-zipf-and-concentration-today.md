@@ -24,15 +24,16 @@ Rank the 485 companies with reported market cap (total \$71.5T; largest
 | top 100, Gabaix–Ibragimov (rank − ½) | **1.05 ± 0.15** | |
 
 The market-cap distribution has a Pareto tail with exponent **≈ 1: Zipf's
-law**. A company's weight is roughly proportional to 1/rank. The one visible
-deviation is at the very top. The five largest companies form a *plateau*
-(\$3.8–5.4T each, 5–8% weights), flatter than Zipf would give, before the
-curve drops toward the 1/rank line. The top of today's market is a cluster of
-similar-sized giants rather than a single dominant firm. The same law
+law**. A company's weight is roughly proportional to 1/rank. The same law
 describes city sizes and firm sizes by employment. Gabaix's explanation is
 random proportional growth (Gibrat's law) combined with entry of new small
 units, which is exactly the zero-alpha compounding-with-turnover world of
 note 01.
+
+The one visible deviation is at the very top. The five largest companies form
+a *plateau* (\$3.8–5.4T each, 5–8% weights), flatter than Zipf would give,
+before the curve drops toward the 1/rank line. The top of today's market is a
+cluster of similar-sized giants rather than a single dominant firm.
 
 ## Concentration
 
