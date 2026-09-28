@@ -215,3 +215,22 @@ kernels".
 Open question worth thinking about: is the martingale (Wiener–Hopf) kernel
 always positive definite? That would make "statistical efficiency ⇒ no
 strategic manipulation" a theorem.
+
+---
+
+### Entry 10: a conjecture refuted
+
+I tried to prove note 10's conjecture (efficiency ⇒ no manipulation) and found
+a counterexample instead. The Dirichlet-kernel form of the symbol,
+$s + \sum a_j D_j(\omega)$, makes the failure mode obvious: at $\omega=\pi$ it
+is $s$ minus an alternating sum of predictor coefficients. Positive persistence
+means a positive alternating sum, which means you need a spread.
+
+This is the most "original" result so far, in the sense that I derived it
+rather than reproduced it. I haven't seen the Dirichlet-kernel identity or the
+alternating-sum spread bound written down, though something similar may exist
+in the market-microstructure literature on spreads.
+
+Also corrected note 10 in place and kept the original argument visible.
+Leaving a mistake readable next to its correction seems more useful than
+quietly editing it away.

@@ -121,6 +121,13 @@ that the continuation is already priced in.
 
 ## The two constraints agree
 
+> **Correction (see [note 11](11-efficiency-does-not-imply-no-manipulation.md)):**
+> the argument below overlooks lag zero. Pólya's criterion needs convexity
+> *through the origin*, which requires an immediate trading cost (a spread) of
+> at least the first order-flow predictor coefficient. Without one, the
+> efficient kernel *is* manipulable by alternating trades. The section is kept
+> as written because the mistake is instructive.
+
 The kernel selected by efficiency, $G(\ell)\propto\ell^{-(1-\gamma)/2}$, is
 convex and decreasing. By Pólya's criterion it is positive definite (no
 profitable round trips), and by Alfonsi–Schied–Slynko it rules out interim

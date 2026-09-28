@@ -1,0 +1,13 @@
+   -> innovation sd 0.994; no-manipulation bound: half-spread / volatility-per-trade >= s*/sigma_innov = 0.069
+fGn signs, H = 0.60 (γ = 0.8)      a1=0.089  a1-a2+a3-...=0.069  min spread s*=0.069 at ω=3.142 (π=3.142); a_j>0: True, decreasing: True; Toeplitz min eig at s*∓0.02: -0.0200 / +0.0200; kernel log-slope on [30,1000] 0.09
+   -> innovation sd 0.947; no-manipulation bound: half-spread / volatility-per-trade >= s*/sigma_innov = 0.182
+fGn signs, H = 0.75 (γ = 0.5)      a1=0.216  a1-a2+a3-...=0.172  min spread s*=0.172 at ω=3.142 (π=3.142); a_j>0: True, decreasing: True; Toeplitz min eig at s*∓0.02: -0.0200 / +0.0200; kernel log-slope on [30,1000] 0.26
+   -> innovation sd 0.798; no-manipulation bound: half-spread / volatility-per-trade >= s*/sigma_innov = 0.334
+fGn signs, H = 0.90 (γ = 0.2)      a1=0.327  a1-a2+a3-...=0.267  min spread s*=0.267 at ω=3.142 (π=3.142); a_j>0: True, decreasing: True; Toeplitz min eig at s*∓0.02: -0.0201 / +0.0199; kernel log-slope on [30,1000] 0.43
+   -> innovation sd 0.722; no-manipulation bound: half-spread / volatility-per-trade >= s*/sigma_innov = 0.630
+mixture of metaorder AR(1)s        a1=0.499  a1-a2+a3-...=0.455  min spread s*=0.455 at ω=3.142 (π=3.142); a_j>0: True, decreasing: True; Toeplitz min eig at s*∓0.02: -0.0200 / +0.0200; kernel log-slope on [30,1000] 0.13
+   -> innovation sd 0.866; no-manipulation bound: half-spread / volatility-per-trade >= s*/sigma_innov = 0.577
+AR(1), φ = 0.5                     a1=0.500  a1-a2+a3-...=0.500  min spread s*=0.500 at ω=3.142 (π=3.142); a_j>0: False, decreasing: True; Toeplitz min eig at s*∓0.02: -0.0200 / +0.0200; kernel log-slope on [30,1000] -0.00
+alternating round trip (60 trades), spread s=0.0: expected cost -4.888 (profit for the manipulator)
+alternating round trip (60 trades), spread s=0.2: expected cost +1.112 (loss for the manipulator)
+alternating round trip (60 trades), spread s=0.5: expected cost +10.112 (loss for the manipulator)
