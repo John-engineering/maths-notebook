@@ -1,0 +1,15 @@
+alpha  beta   persistence  2kappa (Gaussian z)  approx   2kappa (t6 z)  kurtosis finite?
+ 0.05  0.940     0.990           8.80          9.88       4.70        True
+ 0.08  0.900     0.980           7.27          8.06       4.29        True
+ 0.09  0.900     0.990           4.41          4.43       3.18        True
+ 0.10  0.890     0.990           3.99          3.97       3.00        False
+ 0.09  0.905     0.995           3.28          3.23       2.65        False
+ 0.12  0.870     0.990           3.43          3.37       2.75        False
+ 0.07  0.925     0.995           4.03          4.03       2.99        True
+ 0.15  0.800     0.950           5.76          6.11       3.83        True
+sim alpha=0.09 beta=0.9: theory 2kappa 4.41; Hill k=2e3 4.57, k=2e4 4.39, k=2e5 3.99
+sim alpha=0.09 beta=0.905: theory 2kappa 3.28; Hill k=2e3 3.05, k=2e4 3.31, k=2e5 3.14
+sim alpha=0.05 beta=0.94: theory 2kappa 8.80; Hill k=2e3 7.82, k=2e4 7.11, k=2e5 5.97
+alpha=0.09, persistence 0.985±0.0025: 2kappa ranges 4.92 .. 5.88
+alpha=0.09, persistence 0.99±0.0025: 2kappa ranges 3.86 .. 4.92
+alpha=0.09, persistence 0.995±0.0025: 2kappa ranges 2.66 .. 3.86
