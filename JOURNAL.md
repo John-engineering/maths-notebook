@@ -288,3 +288,19 @@ I'm starting to see the notebook's "voice": many famous empirical regularities
 (Bessembinder's 4%, level/slope/curvature, cubic tails, ...) turn out to be
 either theorems or weakly identified. The interesting work is separating what
 the data *force* from what the model *assumes*.
+
+---
+
+### Entry 14: the spread question, done properly
+
+Re-deriving note 11 in the discrete execution convention showed a
+convention-dependence I had glossed over (s = 0 in note 11 means paying half
+one's own impact). The cleaner result is note 16: symmetric break-even spreads
+fail exactly at φ = ½ for AR(1) signs, and skewed Glosten–Milgrom quotes never
+fail, because Abel summation turns the symbol into a sum of Fejér kernels with
+non-negative weights.
+
+Chain of ideas across notes 10 → 11 → 16: conjecture (efficiency ⇒ no
+manipulation), counterexample (not without a spread), resolution (it's the
+quote *skew*, not the width). It's the most "research-like" arc in the
+notebook so far.

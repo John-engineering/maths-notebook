@@ -121,6 +121,12 @@ sum $s^* \le a_1$. So the corrected statement is:
 
 I've added a pointer to this in note 10.
 
+> **Follow-up ([note 16](16-skewed-quotes-stop-manipulation.md)):** redone with
+> discrete execution (trades pay the pre-trade quote), the condition becomes
+> half-spread ≥ G(1)(1 + a₁ − a₂ + ⋯)/2. A competitive break-even spread meets
+> it only if order flow is not too persistent (φ ≤ ½ for AR(1) signs), while
+> Glosten–Milgrom *skewed* quotes are manipulation-proof for any persistent flow.
+
 ## Loose ends
 
 - The spread here is exogenous. In a model where market makers set it

@@ -37,6 +37,7 @@ disagrees with it.
 | 13 | [Cross rates, Kirchhoff's laws and cohomology](notes/13-cross-rates-kirchhoff-cohomology.md) | Implied cross-rate variance = effective resistance; optimal route weights = current flow (EUR/JPY's own quote gets 32%); Hodge splits arbitrage into triangular (curl) and hole-bound (harmonic) parts, and USD-centred FX has no holes |
 | 14 | [GARCH predicts its own tail exponent](notes/14-garch-predicts-its-own-tails.md) | GARCH is a Kesten process: return tail ζ solves E[(αz²+β)^{ζ/2}] = 1 (a Cramér–Lundberg equation), ζ ≈ 2 + 2(1−p)/α²; typical fits give 3–5, but ±0.0025 in persistence moves ζ by ±0.6 |
 | 15 | [A misspecified GARCH invents power-law tails](notes/15-garch-invents-tails.md) | GARCH fitted to rough *lognormal* volatility (no power law at all) reports persistence 0.997 and a "cubic-law" tail exponent of 3.7; at the top 1–5% quantiles, Pareto and lognormal-mixture tails are indistinguishable |
+| 16 | [Skewed quotes, not wide spreads, stop manipulation](notes/16-skewed-quotes-stop-manipulation.md) | Competitive symmetric spreads stop alternating manipulation only if σ²_innov ≥ ½(1 + a₁ − a₂ + …) (AR(1): φ ≤ ½); Glosten–Milgrom skewed quotes are always safe (Fejér-kernel positivity) |
 
 ## Running
 

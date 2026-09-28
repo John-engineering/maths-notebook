@@ -1,0 +1,10 @@
+AR(1) signs: break-even half-spread 1-phi^2 meets manipulation bound (1+phi)/2 at phi = 0.500 (theory 0.5)
+case                           sigma2_innov  s*     break-even h   needed h   min eig (sym)  min eig (GM skew)
+fGn signs, H = 0.60               0.987   0.069      0.987       0.534      +0.9058       +1.0688
+fGn signs, H = 0.75               0.896   0.172      0.896       0.586      +0.6199       +1.1722
+fGn signs, H = 0.90               0.637   0.267      0.637       0.633      +0.0068       +1.2667
+mixture of metaorder AR(1)s       0.522   0.455      0.522       0.727      -0.4109       +1.4549
+   alternating 200-trade round trip: expected cost -40.54 with symmetric break-even spread, +145.62 with skewed quotes (negative = manipulator profits)
+AR(1), φ = 0.5                    0.750   0.500      0.750       0.750      +0.0001       +1.5000
+AR(1), φ = 0.7                    0.510   0.700      0.510       0.850      -0.6799       +1.7000
+   alternating 200-trade round trip: expected cost -67.30 with symmetric break-even spread, +170.00 with skewed quotes (negative = manipulator profits)
