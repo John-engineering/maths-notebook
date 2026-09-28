@@ -1,0 +1,12 @@
+VRP sample 1999-01 to 2018-11: mean implied var 0.0469 (vol 0.217), mean realised var 0.0364 (vol 0.191); implied > realised on 84% of days
+short variance swap (strike-scaled, 239 non-overlapping months): mean +0.270, sd 0.748, Sharpe (annualised) 1.25, skew -5.33, worst -6.11 (2008-09)
+worst months: 2008-09 -6.11, 2015-08 -4.85, 2011-07 -3.60, 2018-01 -3.48, 2010-04 -1.86
+Kelly leverage on strike-scaled short variance: mean-variance 0.48 vs exact empirical 0.14 (ruin bound 1/max loss = 0.16); growth at exact Kelly +0.326/yr, at mean-variance Kelly ruin
+daily S&P 1999-2018:
+  vol proxy ew: sd(log sigma) = 0.45; annualised mean return by vol quintile: σ≈0.09: μ=+0.01, σ≈0.11: μ=+0.14, σ≈0.14: μ=-0.02, σ≈0.19: μ=-0.02, σ≈0.30: μ=+0.07
+  Sharpe: constant 0.177, vol-targeted 0.283, variance-targeted 0.337
+  vol proxy vix: sd(log sigma) = 0.37; annualised mean return by vol quintile: σ≈0.12: μ=+0.04, σ≈0.14: μ=+0.00, σ≈0.18: μ=+0.04, σ≈0.22: μ=-0.06, σ≈0.33: μ=+0.15
+  Sharpe: constant 0.177, vol-targeted 0.186, variance-targeted 0.213
+monthly FF market 1927-2018: sd(log sigma) = 0.47; mean excess return by vol quintile: σ≈0.08: +0.030, σ≈0.11: +0.065, σ≈0.14: +0.124, σ≈0.17: +0.056, σ≈0.30: +0.119
+  estimated risk-return exponent p ≈ 0.84  (note 09: vol targeting helps iff p < 1.5)
+  Sharpe: constant 0.426, vol-targeted 0.461, variance-targeted 0.405; ratio vol/const 1.08 (lognormal theory 1.16), var/const 0.95 (theory 1.07)
