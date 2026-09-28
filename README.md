@@ -76,6 +76,7 @@ places where a simulation overruled a confident first derivation (08, 11/16, 18)
 | 29 | [Calendar effects, tested honestly](notes/29-calendar-effects-honestly.md) | **Real data.** September is the only standout month (t = −2.8) but fails a 12-month Holm correction; James–Stein removes half of seasonal variation; Sell-in-May ≈ +4%/yr before and after publication yet never significant; NASDAQ's overnight drift is almost entirely 1999–2000 |
 | 30 | [Does trend following work on the US stock market?](notes/30-trend-following-the-us-market.md) | **Real data.** 12-month TSMOM long/cash: Sharpe 0.42 → 0.56, max drawdown −85% → −44%; beats random-timing and i.i.d. nulls (p ≤ 0.002) and predicts returns beyond volatility (t = 2.2); the long/short version pays off like a straddle (+49% in 1931, +33% in 2008), as note 04 predicted |
 | 31 | [How volatility shocks decay](notes/31-how-volatility-shocks-decay.md) | **Real data.** 22 VIX spikes 1990–2025 relax as a power law with β ≈ 0.33 (not exponentially; wins leave-one-out 14/22), matching rough-vol's ½ − H from note 26; spikes rise in ~2 days and halve in ~8 |
+| 32 | [The stock–bond correlation: a trend that flips](notes/32-stock-bond-correlation-regimes.md) | **Real data.** +0.28 in 1966–99, −0.32 in 2000–21, +0.46 in 2022–23; positive when trailing inflation > 4%, but pre-1946 history shows inflation isn't the whole story (monetary regime matters) |
 
 ## Running
 
