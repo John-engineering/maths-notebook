@@ -1,0 +1,17 @@
+S&P 500 range vol    1999-2018: noise-corrected H = 0.156 ± 0.017 (noise var 2eta^2 = 0.187); naive log-log slope/2 = 0.079
+NASDAQ range vol     1999-2018: noise-corrected H = 0.121 ± 0.013 (noise var 2eta^2 = 0.144); naive log-log slope/2 = 0.071
+VIX (implied vol)    1990-2026: noise-corrected H = 0.293 ± 0.018 (noise var 2eta^2 = 0.000); naive log-log slope/2 = 0.335
+   S&P 500 1999-2008: noise-corrected H = 0.189 ± 0.030
+   S&P 500 2009-2018: noise-corrected H = 0.136 ± 0.016
+   NASDAQ 1999-2008: noise-corrected H = 0.149 ± 0.029
+   NASDAQ 2009-2018: noise-corrected H = 0.105 ± 0.019
+S&P 500 daily returns: kurtosis 11.2; Hill at top 1/2/5%: 3.77 / 3.38 / 2.94
+NASDAQ daily returns: kurtosis 8.4; Hill at top 1/2/5%: 4.42 / 3.66 / 3.24
+S&P |r| autocorrelation: lag 1 0.24, lag 20 0.24, lag 250 0.05; power-law decay exponent (5-250d) 0.41
+leverage: corr(r_t, |r|_(t+k)) for k=1..5: -0.125, -0.110, -0.084, -0.101, -0.080; reverse corr(|r|_t, r_(t+k)): +0.035, -0.001, +0.032, -0.019, +0.009
+S&P 500 GARCH(1,1) normal: alpha 0.102 beta 0.885 persistence 0.9872 -> implied tail 2kappa 4.40
+S&P 500 GARCH(1,1) t: alpha 0.099 beta 0.900 persistence 0.9996, nu 6.5 -> implied tail min(2kappa, nu) = 2.04
+S&P 500 FIGARCH: d = 0.541 (long-memory parameter); loglik FIGARCH -6930.7 vs GARCH -6941.5
+NASDAQ GARCH(1,1) normal: alpha 0.086 beta 0.905 persistence 0.9909 -> implied tail 2kappa 4.42
+NASDAQ GARCH(1,1) t: alpha 0.084 beta 0.914 persistence 0.9985, nu 8.4 -> implied tail min(2kappa, nu) = 2.29
+NASDAQ FIGARCH: d = 0.509 (long-memory parameter); loglik FIGARCH -8253.1 vs GARCH -8264.9

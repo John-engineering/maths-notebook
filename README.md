@@ -70,6 +70,7 @@ places where a simulation overruled a confident first derivation (08, 11/16, 18)
 | 23 | [Liquidity providers' horizons set how impact decays](notes/23-liquidity-horizons-set-impact-decay.md) | Latent book with a spread of renewal rates, share below ν ∝ ν^a: impact decays as t^−(1−a) (Laplace/Tauberian, checked by Talbot inversion). Efficiency requires a = (1+γ)/2, tying takers' memory to makers' horizons |
 | 24 | [150 years of the S&P 500: which trends survive an honest null?](notes/24-150-years-of-sp500.md) | **Real data.** Volatility drag = σ²/2 to 0.01%; the famous lag-1 momentum is a monthly-averaging artefact; long-run mean reversion is pre-war only and not significant once the null respects volatility clustering |
 | 25 | [Does valuation predict the next decade? CAPE against a fair null](notes/25-does-cape-predict-returns.md) | **Real data.** CAPE's R² = 0.29 is unremarkable under random-walk prices with CAPE rebuilt from actual earnings (p = 0.22); it forecast well out of sample only 1960–89; the CAPE level has drifted from ~15 to ~26 since 1990 |
+| 26 | [Real volatility is rough, and GARCH still gets the tails wrong](notes/26-real-volatility-is-rough.md) | **Real data.** Noise-corrected roughness of S&P/NASDAQ range volatility H ≈ 0.12–0.16 (naive fit halves it); VIX isn't rough at short lags; a t-GARCH fit reaches persistence 0.9996 and implies an infinite-variance tail (2.04) against Hill ≈ 3.4, while FIGARCH (d ≈ 0.5) fits far better |
 
 ## Running
 
