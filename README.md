@@ -69,6 +69,7 @@ places where a simulation overruled a confident first derivation (08, 11/16, 18)
 | 22 | [Who gets the alpha?](notes/22-who-gets-the-alpha.md) | With square-root impact and competitive investors a monopolist manager's fee is ⅓ of gross alpha and impact eats ⅔; with N managers crowding one signal, impact takes N/(N+½): 95% at N = 10 |
 | 23 | [Liquidity providers' horizons set how impact decays](notes/23-liquidity-horizons-set-impact-decay.md) | Latent book with a spread of renewal rates, share below ν ∝ ν^a: impact decays as t^−(1−a) (Laplace/Tauberian, checked by Talbot inversion). Efficiency requires a = (1+γ)/2, tying takers' memory to makers' horizons |
 | 24 | [150 years of the S&P 500: which trends survive an honest null?](notes/24-150-years-of-sp500.md) | **Real data.** Volatility drag = σ²/2 to 0.01%; the famous lag-1 momentum is a monthly-averaging artefact; long-run mean reversion is pre-war only and not significant once the null respects volatility clustering |
+| 25 | [Does valuation predict the next decade? CAPE against a fair null](notes/25-does-cape-predict-returns.md) | **Real data.** CAPE's R² = 0.29 is unremarkable under random-walk prices with CAPE rebuilt from actual earnings (p = 0.22); it forecast well out of sample only 1960–89; the CAPE level has drifted from ~15 to ~26 since 1990 |
 
 ## Running
 

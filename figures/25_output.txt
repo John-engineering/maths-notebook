@@ -1,0 +1,15 @@
+sample: 1881-01 to 2013-06 start dates (1590 months, ~13 non-overlapping decades)
+in-sample: fut10 = 0.244 + -0.066 log(CAPE); R^2 = 0.290
+non-overlapping decades (14 points): slope -0.066, R^2 0.274
+null (random-walk prices, CAPE rebuilt from actual earnings): R^2 median 0.176, 95th pct 0.445; P(R^2 >= data) = 0.223; P(slope <= data) = 0.092
+null slope distribution: median -0.034, 5th pct -0.076 (data -0.066); the null median is not zero because of Stambaugh bias
+out-of-sample R^2 vs expanding historical mean (1920-2013 forecasts): 0.076
+   forecasts made 1920-1959: OOS R^2 -0.138, mean error (actual - forecast) +3.46%/yr
+   forecasts made 1960-1989: OOS R^2 +0.460, mean error (actual - forecast) -1.06%/yr
+   forecasts made 1990-2013: OOS R^2 -0.211, mean error (actual - forecast) +4.50%/yr
+CAPE 1881-1919: mean 15.6, median 15.8
+CAPE 1920-1959: mean 13.3, median 12.3
+CAPE 1960-1989: mean 15.0, median 15.1
+CAPE 1990-2023: mean 26.5, median 25.9
+last CAPE in data (2023-06): 29.9; model-implied next-10y real return 1.9%/yr
+what happened next (price only, nominal): 2023-06 to 2026-08: 19.9%/yr over 3.2 years
