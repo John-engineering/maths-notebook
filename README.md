@@ -29,7 +29,7 @@ others together.
 - **Learning under noise: sizing, testing, detecting**: 05 → 07 → 18 → **19**
   (all governed by the information rate SR²/2)
 - **Market microstructure, and how efficiency fixes exponents**: 06 → 08 →
-  10 → 11 → 16 → 20 (a conjecture, its refutation, and the resolution run
+  10 → 11 → 16 → 20 → 23 → 22 (a conjecture, its refutation, and the resolution run
   through 10 → 11 → 16)
 - **When a stylised fact is really a theorem, or weakly identified**: 01, 03
   (Perron–Frobenius, Gantmacher–Krein), 14 → 15 (tail exponents)
@@ -65,6 +65,7 @@ places where a simulation overruled a confident first derivation (08, 11/16, 18)
 | 19 | [The Kelly bettor is a statistician](notes/19-the-kelly-bettor-is-a-statistician.md) | Synthesis: Kelly wealth = likelihood ratio (Girsanov), so Kelly growth = KL rate; note 07's always-valid test is a mixture of Kelly bettors, and CUSUM is a restarted bettor. Testing by betting |
 | 20 | [The square-root law from a diffusing order book](notes/20-square-root-impact-from-diffusion.md) | Latent net liquidity obeys the heat equation; a metaorder's price solves a Volterra equation. Slow execution: diffusion square root; fast: geometric √(2Q/L). The pure-diffusion propagator (β = ½) is too forgetful for efficiency |
 | 22 | [Who gets the alpha?](notes/22-who-gets-the-alpha.md) | With square-root impact and competitive investors a monopolist manager's fee is ⅓ of gross alpha and impact eats ⅔; with N managers crowding one signal, impact takes N/(N+½): 95% at N = 10 |
+| 23 | [Liquidity providers' horizons set how impact decays](notes/23-liquidity-horizons-set-impact-decay.md) | Latent book with a spread of renewal rates, share below ν ∝ ν^a: impact decays as t^−(1−a) (Laplace/Tauberian, checked by Talbot inversion). Efficiency requires a = (1+γ)/2, tying takers' memory to makers' horizons |
 
 ## Running
 
