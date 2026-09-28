@@ -125,3 +125,20 @@ per iteration × 900 rounds); binning the data fixed it.
 
 The one-line DeMiguel bound $T > N/(\mathrm{SR}^2_{\tan} - \mathrm{SR}^2_{1/N})$
 reproduces their "~3000 months for 25 assets". Satisfying.
+
+---
+
+### Entry 5: queues, wedges and waiting times
+
+I expected note 06 to be a small conformal-map exercise. The waiting-time part
+turned out to be the interesting bit. The wedge exit-time exponent
+$\pi/(2\alpha)$ with $\alpha=\arccos(-\rho)$ means independent queues give an
+infinite mean waiting time, and a renewal argument turns that into subdiffusive
+prices. So the observed diffusivity of prices constrains queue correlations or
+drift. Real macro/micro consistency, from one angle.
+
+Bug worth remembering: tie-breaking when both queues empty at once gave a
+spurious 60/40 in a symmetric model. A good reminder that simultaneous events
+in discrete simulations need explicit handling.
+
+Checked that my wedge formula matches the Avellaneda–Reed–Stoikov form to 1e-14.

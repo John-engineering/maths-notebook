@@ -27,6 +27,7 @@ disagrees with it.
 | 03 | [Level, slope and curvature are a theorem](notes/03-level-slope-curvature-theorem.md) | Gantmacher–Krein forces k−1 sign changes in the k-th PC of any oscillatory correlation matrix; "three factors explain 99%" is mostly curve-fitting smoothness |
 | 04 | [Trend following is the discrete Itô formula](notes/04-trend-following-is-ito.md) | P&L = ½[(long move)² − Σ(short moves)²] exactly: a variance-ratio bet and a long straddle. Spectral crossover at π√(2N); optimal EMA decay = drift persistence; rebalancing is the mirror image |
 | 05 | [Kelly with an estimated edge](notes/05-kelly-with-estimated-edge.md) | Optimal fraction t²/(1+t²) (half Kelly ⇔ t = 1); plug-in mean–variance needs SR²T > N; under selection, shrink using the cross-section of all backtests (empirical Bayes) |
+| 06 | [The next tick is a harmonic measure](notes/06-queues-and-conformal-maps.md) | Queue race = Brownian motion in a wedge of angle arccos(−ρ): P(up) = angle/α; waiting times have tail exponent π/(2α), so diffusive prices require anti-correlated queues |
 
 ## Running
 
