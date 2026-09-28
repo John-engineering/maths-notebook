@@ -95,7 +95,7 @@ ax.plot(ms, sims / sr_opt, color=style.SERIES[0], lw=0, marker="o", ms=3.5,
 ax.plot(ms, ratio(ms, p, s_emp), color=style.NEUTRAL, ls="--", lw=1.2,
         label="perfect forecast")
 ax.axvline(m_star, color=style.SERIES[1], lw=1)
-ax.annotate(f"m* = {m_star:.2f}", (m_star + 0.05, 0.3), fontsize=8, color=style.INK)
+ax.annotate(f"m* = {m_star:.2f}", (m_star + 0.05, 1.02), fontsize=8, color=style.INK)
 ax.set_xlabel("exposure ∝ σ̂^(−m):  m")
 ax.set_ylabel("Sharpe / best achievable Sharpe")
 ax.set_title("Constant expected return (p = 0): noise shrinks the optimal m")

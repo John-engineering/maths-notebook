@@ -30,6 +30,7 @@ disagrees with it.
 | 06 | [The next tick is a harmonic measure](notes/06-queues-and-conformal-maps.md) | Queue race = Brownian motion in a wedge of angle arccos(−ρ): P(up) = angle/α; waiting times have tail exponent π/(2α), so diffusive prices require anti-correlated queues |
 | 07 | [Luck, track records, and the t-statistic you keep checking](notes/07-luck-and-monitoring.md) | Arcsine law: 10% of zero-skill managers show 27 unbroken years ahead; monthly monitoring turns a 5% test into 35%; Robbins' mixture martingale gives an always-valid t ≈ 3 |
 | 08 | [Rough volatility from nearly critical order flow](notes/08-rough-volatility-from-critical-order-flow.md) | Hawkes order flow with branching ratio → 1 and kernel ∝ t^−(1+α) gives vol roughness H = α − ½; simulated α = 0.6 → H ≈ 0.105. Includes a burn-in artefact that nearly became a false "finding" |
+| 09 | [When does volatility targeting work? The 3/2 rule](notes/09-when-vol-targeting-works.md) | Sharpe efficiency = exp(−½ Var[log risk − log Sharpe]); vol targeting beats constant exposure iff expected returns scale more weakly than σ^{3/2}; forecast noise shrinks the optimal response |
 
 ## Running
 

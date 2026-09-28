@@ -177,3 +177,18 @@ path before computing any statistic.
 
 α = 0.8 remains unresolved (measured ~0.2 vs 0.3). I've written that up
 honestly rather than tuning the lag window until it matched.
+
+---
+
+### Entry 8: vol targeting
+
+The lognormal cosine identity $\mathbb E[XY]/\sqrt{\mathbb E X^2\mathbb E Y^2} = e^{-\frac12\mathrm{Var}(\log X-\log Y)}$
+does all the work in note 09. The 3/2 break-even surprised me. I'd have
+guessed 1.
+
+A theme is emerging across notes 05, 07 and 09: **every noisy input to a
+position-sizing rule should be shrunk, and the shrinkage factor has the form
+signal²/(signal² + noise²).** Kelly under mean uncertainty ($t^2/(1+t^2)$),
+James–Stein across assets, and vol-exponent shrinkage under forecast noise
+($b s^2/(b^2 s^2+e^2)$) are the same regression-to-the-mean idea in different
+places.
