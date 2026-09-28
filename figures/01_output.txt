@@ -1,0 +1,23 @@
+baseline over 30 market histories: median [10th, 90th pct]
+  frac_beat           0.3660  [0.2972, 0.4219]
+  frac_month_beat     0.4857  [0.4778, 0.4917]
+  frac_all            0.0203  [0.0015, 0.0372]
+  frac_all_unit       0.0225  [0.0019, 0.0619]
+  k_half             15.0000  [1.9000, 33.0000]
+  median_life         6.6667  [6.5833, 6.8333]
+idio x0.00: beat bills 0.736  all-wealth share 0.2931  (unit-start 0.4949)
+idio x0.25: beat bills 0.676  all-wealth share 0.2243  (unit-start 0.3409)
+idio x0.50: beat bills 0.573  all-wealth share 0.1212  (unit-start 0.2078)
+idio x0.75: beat bills 0.475  all-wealth share 0.0605  (unit-start 0.1024)
+idio x1.00: beat bills 0.389  all-wealth share 0.0306  (unit-start 0.0454)
+idio x1.25: beat bills 0.318  all-wealth share 0.0143  (unit-start 0.0180)
+k=   1  median growth vs index  -8.14%/yr   P(behind) 0.813
+k=   2  median growth vs index  -5.44%/yr   P(behind) 0.782
+k=   3  median growth vs index  -4.42%/yr   P(behind) 0.765
+k=   5  median growth vs index  -3.29%/yr   P(behind) 0.739
+k=  10  median growth vs index  -2.12%/yr   P(behind) 0.704
+k=  20  median growth vs index  -1.46%/yr   P(behind) 0.680
+k=  30  median growth vs index  -1.07%/yr   P(behind) 0.657
+k=  50  median growth vs index  -0.78%/yr   P(behind) 0.638
+k= 100  median growth vs index  -0.53%/yr   P(behind) 0.622
+k= 300  median growth vs index  -0.26%/yr   P(behind) 0.592
