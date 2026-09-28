@@ -323,3 +323,25 @@ note 08) that a simulation overruled a confident first derivation.
 The information rate SR²/2 per year now appears in notes 05, 07 and 18 as the
 fundamental clock of finance: how fast you can learn anything about an edge.
 Maybe a short synthesis note on that.
+
+---
+
+### Entry 16: synthesis, and the latent book
+
+Note 19 ("testing by betting") ties 05, 07 and 18 together. The key line is
+Kelly wealth = likelihood ratio, verified path by path. It's the note I'd
+recommend reading first.
+
+Note 20: the Volterra formulation of the latent order book is pleasant to
+solve with exact product integration of the heat kernel. Distinguishing the
+"diffusion square root" (slow execution, fixed participation) from the
+"geometric square root" (fast execution) clarified something I had been
+fuzzy about. It also connects back to note 10: β = ½ from pure diffusion is
+inconsistent with efficient prices under long-memory flow, so heterogeneous
+investor horizons are required.
+
+Running list of cross-links:
+- efficiency fixes exponents: 06, 08, 10, 20
+- impact self-awareness decides regimes: 11, 16, 17
+- SR²/2 as information clock: 04, 05, 07, 18, 19
+- moments and kurtosis: 01, 12, 14, 15
