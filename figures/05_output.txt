@@ -1,0 +1,36 @@
+1  t=0.5: full -0.376 (theory -0.375), half -0.031 (theory -0.031), oracle +0.025 (theory +0.025), JS -0.121
+1  t=1.0: full -0.001 (theory +0.000), half +0.250 (theory +0.250), oracle +0.250 (theory +0.250), JS +0.068
+1  t=1.5: full +0.624 (theory +0.625), half +0.719 (theory +0.719), oracle +0.779 (theory +0.779), JS +0.506
+1  t=2.0: full +1.499 (theory +1.500), half +1.376 (theory +1.375), oracle +1.600 (theory +1.600), JS +1.273
+1  t=3.0: full +3.999 (theory +4.000), half +3.251 (theory +3.250), oracle +4.049 (theory +4.050), JS +3.791
+2  N=  2: plug-in +0.2700 (theory +0.2700), James-Stein +0.2676, oracle-scaled +0.2767 (k=0.86), levered 1/N -0.0150; known-mu max 0.320
+2  N=  5: plug-in +0.1937 (theory +0.1950), James-Stein +0.2102, oracle-scaled +0.2288 (k=0.72), levered 1/N +0.2068; known-mu max 0.320
+2  N= 10: plug-in +0.0719 (theory +0.0700), James-Stein +0.1559, oracle-scaled +0.1817 (k=0.56), levered 1/N +0.1254; known-mu max 0.320
+2  N= 20: plug-in -0.1759 (theory -0.1800), James-Stein +0.0951, oracle-scaled +0.1257 (k=0.39), levered 1/N +0.0091; known-mu max 0.320
+2  N= 50: plug-in -0.9282 (theory -0.9300), James-Stein +0.0331, oracle-scaled +0.0655 (k=0.20), levered 1/N +0.0399; known-mu max 0.320
+2  N=100: plug-in -2.1868 (theory -2.1800), James-Stein +0.0032, oracle-scaled +0.0360 (k=0.11), levered 1/N +0.0085; known-mu max 0.320
+2  N=200: plug-in -4.6687 (theory -4.6800), James-Stein -0.0101, oracle-scaled +0.0191 (k=0.06), levered 1/N -0.0102; known-mu max 0.320
+3  [no real edges] best backtest t̂ averages 3.45, its true t 0.00
+3  [no real edges] naive             mean growth*T  -6.017   P(growth<0) 1.00
+3  [no real edges] half Kelly        mean growth*T  -1.504   P(growth<0) 1.00
+3  [no real edges] single JS         mean growth*T  -5.060   P(growth<0) 1.00
+3  [no real edges] Tweedie (KDE)     mean growth*T  -1.454   P(growth<0) 0.69
+3  [no real edges] Tweedie (Lindsey) mean growth*T  -1.350   P(growth<0) 0.69
+3  [no real edges] NPMLE             mean growth*T  -0.393   P(growth<0) 0.99
+3  [no real edges] oracle            mean growth*T  +0.000   P(growth<0) 0.00
+3  [2% weak edges] best backtest t̂ averages 3.57, its true t 0.45
+3  [2% weak edges] naive             mean growth*T  -4.706   P(growth<0) 0.88
+3  [2% weak edges] half Kelly        mean growth*T  -0.739   P(growth<0) 0.82
+3  [2% weak edges] single JS         mean growth*T  -3.864   P(growth<0) 0.87
+3  [2% weak edges] Tweedie (KDE)     mean growth*T  -0.931   P(growth<0) 0.60
+3  [2% weak edges] Tweedie (Lindsey) mean growth*T  -1.377   P(growth<0) 0.62
+3  [2% weak edges] NPMLE             mean growth*T  -0.185   P(growth<0) 0.79
+3  [2% weak edges] oracle            mean growth*T  +0.576   P(growth<0) 0.00
+3  [5% strong edges] best backtest t̂ averages 7.06, its true t 6.24
+3  [5% strong edges] naive             mean growth*T +20.756   P(growth<0) 0.02
+3  [5% strong edges] half Kelly        mean growth*T +16.983   P(growth<0) 0.00
+3  [5% strong edges] single JS         mean growth*T +20.871   P(growth<0) 0.02
+3  [5% strong edges] Tweedie (KDE)     mean growth*T +20.841   P(growth<0) 0.01
+3  [5% strong edges] Tweedie (Lindsey) mean growth*T +16.105   P(growth<0) 0.15
+3  [5% strong edges] NPMLE             mean growth*T +20.962   P(growth<0) 0.01
+3  [5% strong edges] oracle            mean growth*T +21.559   P(growth<0) 0.00

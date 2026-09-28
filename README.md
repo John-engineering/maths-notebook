@@ -26,6 +26,7 @@ disagrees with it.
 | 02 | [Where the rebalancing premium comes from](notes/02-rebalancing-premium.md) | Exact identity: EW − market = Σ log(AM/GM) + Δ diversity. Rebalancing is short a straddle on relative prices; optimal no-trade band (3c/16)^⅓ is independent of vol |
 | 03 | [Level, slope and curvature are a theorem](notes/03-level-slope-curvature-theorem.md) | Gantmacher–Krein forces k−1 sign changes in the k-th PC of any oscillatory correlation matrix; "three factors explain 99%" is mostly curve-fitting smoothness |
 | 04 | [Trend following is the discrete Itô formula](notes/04-trend-following-is-ito.md) | P&L = ½[(long move)² − Σ(short moves)²] exactly: a variance-ratio bet and a long straddle. Spectral crossover at π√(2N); optimal EMA decay = drift persistence; rebalancing is the mirror image |
+| 05 | [Kelly with an estimated edge](notes/05-kelly-with-estimated-edge.md) | Optimal fraction t²/(1+t²) (half Kelly ⇔ t = 1); plug-in mean–variance needs SR²T > N; under selection, shrink using the cross-section of all backtests (empirical Bayes) |
 
 ## Running
 

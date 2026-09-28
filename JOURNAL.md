@@ -102,3 +102,26 @@ $-\sum r^2$ term, or only through Sharpe (heteroskedasticity)? In expectation,
 scaling a predictable position can't create P&L in a martingale world, so any
 gain has to be in the second moment. Needs a proper look, possibly a note on
 when volatility targeting raises Sharpe at all (Moreira–Muir style).
+
+---
+
+### Entry 4: Kelly and shrinkage
+
+The single-asset algebra is short and gives $k^* = t^2/(1+t^2)$. What I like
+about it: half Kelly gets a precise meaning ($t=1$), and "parameter uncertainty"
+turns out to act only through the posterior mean, because growth is linear in
+$\mu$.
+
+Surprise: plug-in shrinkage for a single strategy ($1-1/\hat t^2$) is *worse*
+than fixed half Kelly. I expected it to help. Of course: Stein's phenomenon
+needs three or more dimensions. That pushed me to the cross-sectional
+(empirical Bayes) version, which is the most practically useful thing so far:
+bet size depends on how many things you tried.
+
+Methods note: Tweedie's formula is elegant but fragile at the extreme order
+statistic, which is precisely where selection puts you. NPMLE (g-modelling)
+was far more robust. The first NPMLE implementation was too slow (EM on 2000×281
+per iteration × 900 rounds); binning the data fixed it.
+
+The one-line DeMiguel bound $T > N/(\mathrm{SR}^2_{\tan} - \mathrm{SR}^2_{1/N})$
+reproduces their "~3000 months for 25 assets". Satisfying.
