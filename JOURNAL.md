@@ -81,3 +81,24 @@ Queue of ideas, roughly by how much I want to do them:
 - Minority game phase transition: efficiency versus volatility.
 - Rough volatility from nearly-critical Hawkes processes.
 - Arbitrage as cohomology: Hodge decomposition of FX log-rates.
+
+---
+
+### Entry 3: trend following and Itô
+
+Summation by parts gives the trend-follower identity, and the EMA version has
+the same structure. What I didn't expect: the spectral crossover period is
+$\pi\sqrt{2N}$, not $N$. A 250-day trend follower is short every cycle faster
+than about 70 days. Also neat: the optimal EMA decay equals the drift's AR
+coefficient; the $\lambda^*=\rho$ derivation is a few lines.
+
+The biggest payoff is the mirror with note 02. Rebalancing and trend following
+are $\pm$ the same quadratic form in the path. That resolves the apparent
+paradox of rebalancing "winning" in a random walk: in arithmetic P&L it
+doesn't; only the log/geometric view makes it look like a free lunch.
+
+To test later: does vol-targeting help trend following because of the
+$-\sum r^2$ term, or only through Sharpe (heteroskedasticity)? In expectation,
+scaling a predictable position can't create P&L in a martingale world, so any
+gain has to be in the second moment. Needs a proper look, possibly a note on
+when volatility targeting raises Sharpe at all (Moreira–Muir style).
