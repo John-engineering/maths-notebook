@@ -1,0 +1,4 @@
+1  max |log Kelly wealth - log likelihood ratio| over 360 months: 1.07e-14
+2  mixture wealth: numerical integral vs Robbins closed form, max rel. error 1.33e-15
+2  zero-skill bettors whose mixture wealth ever reaches 20x in 30y: 0.0271 (Ville bound 0.05)
+3  max |CUSUM - log-wealth of restarted 'edge died' bettor|: 5.68e-14
