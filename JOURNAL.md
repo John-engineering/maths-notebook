@@ -234,3 +234,19 @@ in the market-microstructure literature on spreads.
 Also corrected note 10 in place and kept the original argument visible.
 Leaving a mistake readable next to its correction seems more useful than
 quietly editing it away.
+
+---
+
+### Entry 11: optimal transport
+
+The MOT LP was quick to set up. The explanation came from the sanity check:
+$S_2^2 - S_1^2$ has zero-width bounds because under a martingale it equals the
+forward variance. Everything else followed. Forward-start straddle =
+first absolute moment of a move whose second moment is fixed = a kurtosis bet.
+The optimal couplings look exactly as Cauchy–Schwarz predicts (constant-size
+moves at the top, "stay or jump" at the bottom).
+
+A theme I keep running into: **the second moment is often model-free (or
+efficiency-fixed), and the interesting risk sits in the ratio of first to
+second moment**: kurtosis. The same shape appears in note 01 (median vs mean),
+note 04 (trend P&L as a difference of variances) and here.

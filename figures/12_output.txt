@@ -1,0 +1,16 @@
+[flat 20% vol (Black–Scholes)] T2 ATM implied vol of the discretised marginal: 0.2003
+   forward-start straddle |S₂ − S₁|   lower    5.502   model   11.297   upper   14.057   width/model 0.76
+   cliquet leg (S₂/S₁ − 1)⁺           lower    2.756   model    5.649   upper    7.024   width/model 0.76
+   forward-start digital 1{S₂ > S₁}   lower    8.519   model   46.065   upper   85.513   width/model 1.67
+   two-date variance (log S₂/S₁)²     lower    1.686   model    2.016   upper    2.375   width/model 0.34
+   separable check: S₂² − S₁²         lower    2.065   model    2.065   upper    2.065   width/model 0.00
+[regime-switching forward vol] T2 ATM implied vol of the discretised marginal: 0.1997
+   forward-start straddle |S₂ − S₁|   lower    5.393   model   10.428   upper   14.803   width/model 0.90
+   cliquet leg (S₂/S₁ − 1)⁺           lower    2.704   model    5.216   upper    7.403   width/model 0.90
+   forward-start digital 1{S₂ > S₁}   lower    7.215   model   45.880   upper   87.242   width/model 1.74
+   two-date variance (log S₂/S₁)²     lower    1.912   model    2.362   upper    2.847   width/model 0.40
+   separable check: S₂² − S₁²         lower    2.413   model    2.413   upper    2.413   width/model 0.00
+[flat 20% vol (Black–Scholes)] forward variance E(S2-S1)^2 = 206.5; sqrt = 14.37; straddle lower/model/upper as fraction of sqrt: 0.383 / 0.786 / 0.978   (normal increments: sqrt(2/pi) = 0.798)
+[regime-switching forward vol] forward variance E(S2-S1)^2 = 241.3; sqrt = 15.53; straddle lower/model/upper as fraction of sqrt: 0.347 / 0.671 / 0.953   (normal increments: sqrt(2/pi) = 0.798)
+straddle min: support points per S1 value: median 3, max 8
+straddle max: support points per S1 value: median 3, max 5
