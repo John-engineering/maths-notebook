@@ -1,0 +1,34 @@
+Fama-French total market return by calendar month, 1926-2018:
+   month  1: mean +1.45%  t vs rest +1.06  p 0.291  Holm 1.000  James-Stein shrunk +1.17%
+   month  2: mean +0.64%  t vs rest -0.70  p 0.487  Holm 1.000  James-Stein shrunk +0.80%
+   month  3: mean +0.80%  t vs rest -0.28  p 0.779  Holm 1.000  James-Stein shrunk +0.87%
+   month  4: mean +1.31%  t vs rest +0.62  p 0.540  Holm 1.000  James-Stein shrunk +1.11%
+   month  5: mean +0.53%  t vs rest -0.72  p 0.476  Holm 1.000  James-Stein shrunk +0.75%
+   month  6: mean +0.83%  t vs rest -0.20  p 0.844  Holm 1.000  James-Stein shrunk +0.89%
+   month  7: mean +1.55%  t vs rest +1.11  p 0.272  Holm 1.000  James-Stein shrunk +1.22%
+   month  8: mean +1.16%  t vs rest +0.39  p 0.698  Holm 1.000  James-Stein shrunk +1.04%
+   month  9: mean -0.68%  t vs rest -2.81  p 0.006  Holm 0.072  James-Stein shrunk +0.19%
+   month 10: mean +0.33%  t vs rest -1.00  p 0.320  Holm 1.000  James-Stein shrunk +0.65%
+   month 11: mean +1.55%  t vs rest +1.22  p 0.225  Holm 1.000  James-Stein shrunk +1.22%
+   month 12: mean +1.73%  t vs rest +2.12  p 0.036  Holm 0.400  James-Stein shrunk +1.30%
+James-Stein shrinkage factor toward the grand mean: 0.46 (0 = all differences are noise)
+Sell in May, Shiller S&P (monthly averages) 1872-2001: Nov-Apr minus May-Oct = +1.60%/yr, t = +1.13 (130 years)
+Sell in May, Shiller S&P (monthly averages) 2002-2025: Nov-Apr minus May-Oct = +2.48%/yr, t = +0.78 (24 years)
+Sell in May, Fama-French market (month-end) 1927-2001: Nov-Apr minus May-Oct = +3.82%/yr, t = +1.72 (75 years)
+Sell in May, Fama-French market (month-end) 2002-2018: Nov-Apr minus May-Oct = +4.10%/yr, t = +1.40 (17 years)
+turn of month (last day + first 3), S&P 1999-2018: mean +5.0 bp/day vs +0.6 bp/day otherwise, t = +1.05; TOM days are 19% of days and account for 68% of the total log return
+   1999-2008: TOM +5.3 bp/day vs rest -2.8 bp/day
+   2009-2018: TOM +4.7 bp/day vs rest +3.9 bp/day
+   weekday Mon: -1.0 bp/day, t vs rest -0.64
+   weekday Tue: +2.7 bp/day, t vs rest +0.39
+   weekday Wed: +2.5 bp/day, t vs rest +0.31
+   weekday Thu: +4.0 bp/day, t vs rest +0.76
+   weekday Fri: -1.3 bp/day, t vs rest -0.87
+   day-of-week Holm-adjusted p-values: 1.00, 1.00, 1.00, 1.00, 1.00
+NASDAQ 1999-2018: cumulative overnight log return +2.32, intraday -1.22, close-to-close +1.10
+   overnight mean +4.61 bp (t +4.11, sd 79 bp); intraday mean -2.42 bp (t -1.26, sd 137 bp)
+   1999-2000: overnight +26.3 bp/day, intraday -24.0 bp/day, corr(overnight, intraday) +0.01
+   2001-2005: overnight +2.0 bp/day, intraday -2.9 bp/day, corr(overnight, intraday) +0.01
+   2006-2010: overnight +0.7 bp/day, intraday +0.8 bp/day, corr(overnight, intraday) +0.07
+   2011-2018: overnight +3.3 bp/day, intraday +1.3 bp/day, corr(overnight, intraday) -0.02
+S&P 500 2008-2018, 2605 days with genuine opens: overnight +0.17, intraday +0.15 (overnight t +1.53)
