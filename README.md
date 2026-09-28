@@ -29,6 +29,7 @@ disagrees with it.
 | 05 | [Kelly with an estimated edge](notes/05-kelly-with-estimated-edge.md) | Optimal fraction t²/(1+t²) (half Kelly ⇔ t = 1); plug-in mean–variance needs SR²T > N; under selection, shrink using the cross-section of all backtests (empirical Bayes) |
 | 06 | [The next tick is a harmonic measure](notes/06-queues-and-conformal-maps.md) | Queue race = Brownian motion in a wedge of angle arccos(−ρ): P(up) = angle/α; waiting times have tail exponent π/(2α), so diffusive prices require anti-correlated queues |
 | 07 | [Luck, track records, and the t-statistic you keep checking](notes/07-luck-and-monitoring.md) | Arcsine law: 10% of zero-skill managers show 27 unbroken years ahead; monthly monitoring turns a 5% test into 35%; Robbins' mixture martingale gives an always-valid t ≈ 3 |
+| 08 | [Rough volatility from nearly critical order flow](notes/08-rough-volatility-from-critical-order-flow.md) | Hawkes order flow with branching ratio → 1 and kernel ∝ t^−(1+α) gives vol roughness H = α − ½; simulated α = 0.6 → H ≈ 0.105. Includes a burn-in artefact that nearly became a false "finding" |
 
 ## Running
 

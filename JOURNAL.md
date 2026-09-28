@@ -159,3 +159,21 @@ Sobering number: an IR-0.5 manager has about 50% odds of proving skill within
 
 Next up: rough volatility from nearly critical Hawkes processes. This is the
 most computationally demanding idea on the list, so it's worth doing carefully.
+
+---
+
+### Entry 7: rough volatility, and a near miss
+
+Hawkes simulation via the Laplace-mixture representation of the power-law
+kernel works well: 48 exponentials, 0.03% kernel error, 10⁸ events in about a
+minute with numba.
+
+The near miss: I measured strongly positive skew in log-vol increments and
+almost wrote it up as "Hawkes rough vol predicts the time-irreversibility of
+real vol". It came entirely from the burn-in (the process starts empty and
+climbs for ~5·10⁴ time units). Discarding 20% killed the skew and moved H from
+0.13 to 0.105. Rule for myself: with long-memory processes, look at the raw
+path before computing any statistic.
+
+α = 0.8 remains unresolved (measured ~0.2 vs 0.3). I've written that up
+honestly rather than tuning the lag window until it matched.

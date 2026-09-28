@@ -1,0 +1,7 @@
+p=0.0: SR const 0.299, vol-target 0.404, var-target 0.441, optimal 0.441; theory ratio vol/const = 1.357, sim 1.349
+p=1.0: SR const 0.299, vol-target 0.332, var-target 0.298, optimal 0.332; theory ratio vol/const = 1.107, sim 1.110
+p=1.5: SR const 0.322, vol-target 0.324, var-target 0.263, optimal 0.332; theory ratio vol/const = 1.000, sim 1.007
+p=2.0: SR const 0.364, vol-target 0.332, var-target 0.245, optimal 0.364; theory ratio vol/const = 0.903, sim 0.912
+EWMA forecast: log sigma_hat = -0.97 + 0.784 log sigma + noise(sd 0.229)
+with EWMA forecast, p=0: best m simulated 1.75, theory m* = b s^2 (2-p) / (b^2 s^2 + e^2) = 1.80
+   SR at m=0 0.299, m=1 0.376, m=2 0.392, optimal-with-true-vol 0.442

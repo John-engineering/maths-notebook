@@ -1,0 +1,4 @@
+power-law kernel, α = 0.6                 45.9M events, cutoff tau_c ~    317480; local slope over [10583, 105827] = 0.105 (theory H = 0.10); skew of dlogvol at lag 10 / 1000: +0.08 / -0.01
+power-law kernel, α = 0.8                 81.7M events, cutoff tau_c ~     13375; local slope over [446, 4458] = 0.196 (theory H = 0.30); skew of dlogvol at lag 10 / 1000: +0.12 / +0.07
+exponential kernel                        76.6M events, cutoff tau_c ~     40000; local slope over [1333, 13333] = 0.429 (theory H = 0.50); skew of dlogvol at lag 10 / 1000: +0.09 / -0.24
+power law α = 0.6, subcritical a = 0.7    99.8M events, cutoff tau_c ~         7; local slope over [30, 3000] = 0.005 (theory H = n/a); skew of dlogvol at lag 10 / 1000: +0.03 / +0.00
