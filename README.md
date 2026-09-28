@@ -34,6 +34,7 @@ disagrees with it.
 | 10 | [Impact kernels: efficiency picks the exponent, Bochner forbids manipulation](notes/10-impact-kernels-bochner.md) | No profitable round trip ⇔ Ĝ ≥ 0; convexity also rules out interim sells; long-memory order flow requires impact decay ℓ^−(1−γ)/2 for diffusive prices, and that kernel is manipulation-free too (with a caveat: see 11) |
 | 11 | [An efficient price can still be manipulated, unless there is a spread](notes/11-efficiency-does-not-imply-no-manipulation.md) | Martingale kernel = cumulative order-flow surprise; its Toeplitz symbol is s + Σ a_j D_j(ω) (Dirichlet kernels), negative at ω = π unless the spread s ≥ a₁ − a₂ + a₃ − … |
 | 12 | [What vanilla prices don't tell you](notes/12-forward-start-options-and-transport.md) | Martingale optimal transport as an LP: vanillas fix the forward variance exactly, so forward-start straddles are pure forward-kurtosis bets (range 0.38–0.98 of √variance, BS = √(2/π)); forward digitals are almost unconstrained |
+| 13 | [Cross rates, Kirchhoff's laws and cohomology](notes/13-cross-rates-kirchhoff-cohomology.md) | Implied cross-rate variance = effective resistance; optimal route weights = current flow (EUR/JPY's own quote gets 32%); Hodge splits arbitrage into triangular (curl) and hole-bound (harmonic) parts, and USD-centred FX has no holes |
 
 ## Running
 

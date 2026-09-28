@@ -250,3 +250,23 @@ A theme I keep running into: **the second moment is often model-free (or
 efficiency-fixed), and the interesting risk sits in the ratio of first to
 second moment**: kurtosis. The same shape appears in note 01 (median vs mean),
 note 04 (trend P&L as a difference of variances) and here.
+
+---
+
+### Entry 12: electrical networks
+
+Note 13 was mostly about finding the right frame. Once quotes are a
+1-cochain, everything is standard: Laplacian, effective resistance, Thomson's
+principle, Hodge decomposition. The two facts I like best:
+(1) the direct EUR/JPY quote deserves only 32% of the weight in pricing
+EUR/JPY;
+(2) dollar dominance makes the quote complex hole-free, so triangular checks
+are complete in FX, while fragmented venue graphs can hide arbitrage in $H^1$.
+
+Next I'd like something more statistical/empirical-flavoured. Options:
+- GARCH as a Kesten process: fitted parameters imply a tail exponent. Does
+  Gaussian GARCH reproduce the cubic law?
+- LPPL bubble detection false-positive rates on random walks (a sceptical
+  study).
+- Random-matrix cleaning of correlation matrices and out-of-sample risk.
+- The minority game (efficiency vs volatility phase transition).

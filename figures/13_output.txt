@@ -1,0 +1,14 @@
+pair       direct quote sd   network sd (sim)   sqrt(R_eff)   improvement
+EUR/JPY      1.0 bp            0.57 bp            0.56 bp      1.77x
+GBP/JPY      2.0 bp            0.73 bp            0.73 bp      2.74x
+TRY/JPY      (none)           12.06 bp           12.01 bp        -
+ZAR/TRY      (none)           13.85 bp           13.72 bp        -
+MXN/NZD      (none)            5.16 bp            5.17 bp        -
+SEK/NOK      4.0 bp            2.23 bp            2.25 bp      1.78x
+flow EUR->JPY: direct quote carries 32% ; top edges USD/JPY 53%, EUR/USD 50%, EUR/JPY 32%, EUR/GBP 10%, EUR/CHF 7%
+flow TRY->JPY: direct quote carries 0% ; top edges USD/TRY 64%, USD/JPY 61%, EUR/TRY 36%, EUR/JPY 24%, EUR/USD 7%
+quote graph: V=13, E=26, independent cycles E-V+1 = 14, triangles 19 (rank 14), harmonic dimension beta_1 = 0
+null: E[curl SS] = 13.95 (chi2 dof 14); E[harmonic SS] = 0.000 (dof 0)
+venue graph: V=6, E=7, triangles 0, harmonic dimension 2
+venue ring with 10bp 4-cycle arbitrage: curl SS 0.000, harmonic SS 6.250 (in units of quote variance); triangle checks find nothing because there are no triangles
+FX graph with a 3bp mispricing on one EUR/GBP/JPY leg: curl SS 6.14, harmonic SS 0.0000 (null expectation of curl SS: 14)
