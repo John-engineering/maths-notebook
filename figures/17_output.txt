@@ -1,0 +1,24 @@
+eta=0  m= 1  alpha= 0.0066  sigma^2/N= 46.7530  H/N=0.0000
+eta=0  m= 2  alpha= 0.0133  sigma^2/N= 25.8676  H/N=0.0000
+eta=0  m= 3  alpha= 0.0266  sigma^2/N= 13.5946  H/N=0.0000
+eta=0  m= 4  alpha= 0.0532  sigma^2/N=  5.8131  H/N=0.0000
+eta=0  m= 5  alpha= 0.1063  sigma^2/N=  2.5992  H/N=0.0000
+eta=0  m= 6  alpha= 0.2126  sigma^2/N=  1.0448  H/N=0.0000
+eta=0  m= 7  alpha= 0.4252  sigma^2/N=  0.1452  H/N=0.0115
+eta=0  m= 8  alpha= 0.8505  sigma^2/N=  0.3036  H/N=0.1208
+eta=0  m= 9  alpha= 1.7010  sigma^2/N=  0.5012  H/N=0.2469
+eta=0  m=10  alpha= 3.4020  sigma^2/N=  0.6866  H/N=0.3552
+eta=0  m=11  alpha= 6.8040  sigma^2/N=  0.8446  H/N=0.4274
+eta=0  m=12  alpha=13.6080  sigma^2/N=  0.9217  H/N=0.4649
+eta=1  m= 1  alpha= 0.0066  sigma^2/N=  2.6775  H/N=0.0014
+eta=1  m= 2  alpha= 0.0133  sigma^2/N=  0.0973  H/N=0.0022
+eta=1  m= 3  alpha= 0.0266  sigma^2/N=  0.0033  H/N=0.0033
+eta=1  m= 4  alpha= 0.0532  sigma^2/N=  0.0037  H/N=0.0035
+eta=1  m= 5  alpha= 0.1063  sigma^2/N=  0.0093  H/N=0.0079
+eta=1  m= 6  alpha= 0.2126  sigma^2/N=  0.0221  H/N=0.0215
+eta=1  m= 7  alpha= 0.4252  sigma^2/N=  0.0684  H/N=0.0674
+eta=1  m= 8  alpha= 0.8505  sigma^2/N=  0.2000  H/N=0.1970
+eta=1  m= 9  alpha= 1.7010  sigma^2/N=  0.3505  H/N=0.3495
+eta=1  m=10  alpha= 3.4020  sigma^2/N=  0.4939  H/N=0.4920
+eta=1  m=11  alpha= 6.8040  sigma^2/N=  0.6324  H/N=0.6275
+eta=1  m=12  alpha=13.6080  sigma^2/N=  0.7332  H/N=0.7278

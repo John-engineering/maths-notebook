@@ -1,0 +1,9 @@
+SR 0.5: timescale 2/SR^2 = 8.0y; at 1 false alarm per 5y, detecting death to 0 takes 2.9y (Brownian theory 2.7y); death to -SR takes 1.7y
+SR 0.5: timescale 2/SR^2 = 8.0y; at 1 false alarm per 20y, detecting death to 0 takes 6.4y (Brownian theory 6.6y); death to -SR takes 3.2y
+SR 1.0: timescale 2/SR^2 = 2.0y; at 1 false alarm per 5y, detecting death to 0 takes 1.7y (Brownian theory 1.7y); death to -SR takes 0.8y
+SR 1.0: timescale 2/SR^2 = 2.0y; at 1 false alarm per 20y, detecting death to 0 takes 3.2y (Brownian theory 3.4y); death to -SR takes 1.4y
+SR 2.0: timescale 2/SR^2 = 0.5y; at 1 false alarm per 5y, detecting death to 0 takes 0.8y (Brownian theory 0.8y); death to -SR takes 0.4y
+SR 2.0: timescale 2/SR^2 = 0.5y; at 1 false alarm per 20y, detecting death to 0 takes 1.4y (Brownian theory 1.4y); death to -SR takes 0.5y
+SR 1 -> 0 at 1 false alarm per 5y: CUSUM delay 1.7y, plain drawdown delay 1.8y (drawdown trigger = 1.24 annual vols)
+SR 1 -> 0 at 1 false alarm per 20y: CUSUM delay 3.2y, plain drawdown delay 3.7y (drawdown trigger = 1.84 annual vols)
+SR 1 -> 0 at 1 false alarm per 50y: CUSUM delay 4.8y, plain drawdown delay 5.4y (drawdown trigger = 2.25 annual vols)

@@ -38,6 +38,8 @@ disagrees with it.
 | 14 | [GARCH predicts its own tail exponent](notes/14-garch-predicts-its-own-tails.md) | GARCH is a Kesten process: return tail ζ solves E[(αz²+β)^{ζ/2}] = 1 (a Cramér–Lundberg equation), ζ ≈ 2 + 2(1−p)/α²; typical fits give 3–5, but ±0.0025 in persistence moves ζ by ±0.6 |
 | 15 | [A misspecified GARCH invents power-law tails](notes/15-garch-invents-tails.md) | GARCH fitted to rough *lognormal* volatility (no power law at all) reports persistence 0.997 and a "cubic-law" tail exponent of 3.7; at the top 1–5% quantiles, Pareto and lognormal-mixture tails are indistinguishable |
 | 16 | [Skewed quotes, not wide spreads, stop manipulation](notes/16-skewed-quotes-stop-manipulation.md) | Competitive symmetric spreads stop alternating manipulation only if σ²_innov ≥ ½(1 + a₁ − a₂ + …) (AR(1): φ ≤ ½); Glosten–Milgrom skewed quotes are always safe (Fejér-kernel positivity) |
+| 17 | [The minority game: efficient markets are crowded markets](notes/17-minority-game-efficiency-volatility.md) | Price-taking agents make the market perfectly efficient below α_c ≈ 0.34 at the cost of 14× excess volatility; impact-aware agents are 4,000× calmer but leave predictability unexploited |
+| 18 | [When did my edge die?](notes/18-when-did-my-edge-die.md) | CUSUM (a drawdown rule on drift-adjusted P&L) is optimal; detection time scales as 2/ΔSR² years, so Sharpe 1 → 0 takes about 3 years at one false alarm per 20 years |
 
 ## Running
 

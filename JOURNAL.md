@@ -304,3 +304,22 @@ Chain of ideas across notes 10 → 11 → 16: conjecture (efficiency ⇒ no
 manipulation), counterexample (not without a spread), resolution (it's the
 quote *skew*, not the width). It's the most "research-like" arc in the
 notebook so far.
+
+---
+
+### Entry 15: minority game, and a corrected asymptotic
+
+Minority game: the headline is that among price-takers, efficiency and
+excess volatility are the same thing (crowding), and impact-awareness trades
+efficiency for calm. It fits the thread from notes 10/11/16: how agents model
+their own impact is first-order.
+
+Dead-edge detection: I wrote "17 years" from Lorden's asymptotic before
+simulating. The simulation said 3. The asymptotic assumes O(1) information per
+observation; daily data have almost none, and the natural clock is
+τ = 2/ΔSR². Worth recording because it's the second time (after the burn-in in
+note 08) that a simulation overruled a confident first derivation.
+
+The information rate SR²/2 per year now appears in notes 05, 07 and 18 as the
+fundamental clock of finance: how fast you can learn anything about an edge.
+Maybe a short synthesis note on that.
